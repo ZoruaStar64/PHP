@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7651886f-fd68-4e21-8bfd-090cef014d16" name="Default Changelist" comment="" />
+    <list default="true" id="7651886f-fd68-4e21-8bfd-090cef014d16" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht1H3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht2H3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht3H3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht4H3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht5H3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht6H3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht7H3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht8H3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H03/h03.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H03/h03.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +46,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1oCVIlhT56dhtk1GpGVHkpYORFu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,7 +59,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javascript" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -52,12 +84,24 @@
       <updated>1612790481776</updated>
       <workItem from="1612790482877" duration="46000" />
       <workItem from="1612790975912" duration="2967000" />
-      <workItem from="1612876329692" duration="3500000" />
+      <workItem from="1612876329692" duration="4202000" />
+      <workItem from="1612957577581" duration="382000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="210" key="#Deployment" timestamp="1612794176049">
@@ -72,6 +116,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612794770888" />
+    <state x="600" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612957762111">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="600" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612957762111" />
     <state x="148" y="232" width="1363" height="640" key="DiffContextDialog" timestamp="1612793996936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -100,17 +148,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612795164462" />
-    <state x="664" y="475" key="NewPhpFileDialog" timestamp="1612878196487">
+    <state x="664" y="475" key="NewPhpFileDialog" timestamp="1612957809945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="664" y="475" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612878196487" />
+    <state x="664" y="475" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612957809945" />
     <state x="714" y="282" key="ftp.server.browser" timestamp="1612793199018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="282" key="ftp.server.browser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612793199018" />
-    <state x="644" y="444" key="publish.login" timestamp="1612876456797">
+    <state x="644" y="444" key="publish.login" timestamp="1612957702837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612876456797" />
+    <state x="644" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612957702837" />
   </component>
 </project>
