@@ -20,16 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7651886f-fd68-4e21-8bfd-090cef014d16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht1H3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht2H3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht3H3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht4H3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht5H3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht6H3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht7H3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/H03/opdracht8H3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/image10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/image6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/image7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/image8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IMG/image9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H03/h03.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H03/h03.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H03/opdracht1H3.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H03/opdracht1H3.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,17 +62,35 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javascript" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sande\PHP\IMG" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sande\PHP\IMG" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.opdracht1H3.php">
     <configuration name="console.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$APPLICATION_CONFIG_DIR$/consoles/db/bbfaa4d2-78ad-4032-bf90-d0421eca4f5e/console.sql" />
       <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
+    <configuration name="opdracht1H3.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHP/H03/opdracht1H3.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.opdracht1H3.php" />
         <item itemvalue="Database Script.console.sql" />
       </list>
     </recent_temporary>
@@ -85,7 +106,7 @@
       <workItem from="1612790482877" duration="46000" />
       <workItem from="1612790975912" duration="2967000" />
       <workItem from="1612876329692" duration="4202000" />
-      <workItem from="1612957577581" duration="382000" />
+      <workItem from="1612957577581" duration="6591000" />
     </task>
     <servers />
   </component>
@@ -128,10 +149,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="148" y="232" width="1363" height="640" key="DirDiffDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612794176428" />
-    <state x="609" y="307" key="FileChooserDialogImpl" timestamp="1612876787085">
+    <state x="609" y="307" key="FileChooserDialogImpl" timestamp="1612962838316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="609" y="307" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612876787085" />
+    <state x="609" y="307" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612962838316" />
     <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1612795164462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
