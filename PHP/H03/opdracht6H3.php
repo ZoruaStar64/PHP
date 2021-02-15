@@ -22,17 +22,29 @@ $zwemclub["Bommetje"] = 23;
 
 
 
-echo "<div style='border: black 3px solid; width: 300px; height: 96px'>";
+echo "<div style=' width: 348px; height: 120px; float: left'>";
 foreach ($zwemclub as $label => $aantal) {
-if ($aantal % 5) {
-    $zwemimage[] = "<img style='width: 20px; height: 20px' src='../../IMG/tada.gif'</img>";
+    $numberOfPictures = floor($aantal / 5); //floor() kapt af naar beneden
+    echo "<div style='border: black 3px solid; width: 150px; height: 20px; float: right'>";
+    for($i = 0; $i < $numberOfPictures; $i++) {
+        $zwemimage = "<img style='width: 20px; height: 20px' src='../../IMG/tada.gif'</img>";
+        echo $zwemimage;
+    }
+    echo "</div>";
+    echo "<div style='border: black 3px solid; width: 150px; height: 20px; float:left'>" . $label . "</div>" . "   " . "<div style='border: black 3px solid; width: 30px; height: 20px; float: left'>" . $aantal . "</div>"  . "<br>";
 }
-    echo "<div style='border: black 3px solid; width: 150px; float:left;'>" . $label . "</div>" . "   " . "<div style='border: black 3px solid; width: 30px; float: left'>" . $aantal . "</div>" . $zwemimage  . "<br>";
-}
+echo "<br>";
+echo "<p style='float: left'><a href='h03.php'>Terug naar H3</a><br><a class='home' href='../../index.php'>Terug naar home</a></p>";
 echo "</div>";
 
-echo "<br>";
-echo "<p><a href='h03.php'>Terug naar H3</a><br><a class='home' href='../../index.php'>Terug naar home</a></p>";
+/*echo "<div style='border: black 3px solid; width: 108px; height: 96px; float:left;'>";
+if ($aantal % 5) {
+    $zwemimage = "<img style='width: 20px; height: 20px' src='../../IMG/tada.gif'</img>";
+    echo $zwemimage;
+}
+echo "</div>";*/
+
+
 
 ?>
 </body>
