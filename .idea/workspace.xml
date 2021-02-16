@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7651886f-fd68-4e21-8bfd-090cef014d16" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PHP/H04/opdrachtH4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H03/h03.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H03/h03.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H03/opdracht7H3.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H03/opdracht7H3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H03/opdracht8H3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H04/h04.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H04/h04.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,8 @@
       <workItem from="1613034053736" duration="14409000" />
       <workItem from="1613125016361" duration="3813000" />
       <workItem from="1613135182561" duration="2839000" />
-      <workItem from="1613376223291" duration="8280000" />
+      <workItem from="1613376223291" duration="8937000" />
+      <workItem from="1613480087000" duration="3638000" />
     </task>
     <servers />
   </component>
@@ -165,18 +165,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612795164462" />
-    <state x="664" y="475" key="NewPhpFileDialog" timestamp="1612957809945">
+    <state x="664" y="475" key="NewPhpFileDialog" timestamp="1613480373595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="664" y="475" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612957809945" />
+    <state x="664" y="475" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613480373595" />
     <state x="714" y="282" key="ftp.server.browser" timestamp="1612793199018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="282" key="ftp.server.browser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612793199018" />
-    <state x="644" y="444" key="publish.login" timestamp="1613379337513">
+    <state x="644" y="444" key="publish.login" timestamp="1613480359603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613379337513" />
+    <state x="644" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613480359603" />
     <state x="2564" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613135214709" />
   </component>
 </project>
