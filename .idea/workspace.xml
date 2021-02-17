@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7651886f-fd68-4e21-8bfd-090cef014d16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PHP/H04/opdrachtH4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H04/h04.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H04/h04.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H04/opdrachtH4.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H04/opdrachtH4.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,8 @@
       <workItem from="1613125016361" duration="3813000" />
       <workItem from="1613135182561" duration="2839000" />
       <workItem from="1613376223291" duration="8937000" />
-      <workItem from="1613480087000" duration="3638000" />
+      <workItem from="1613480087000" duration="3676000" />
+      <workItem from="1613560774253" duration="4673000" />
     </task>
     <servers />
   </component>
@@ -173,10 +173,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="282" key="ftp.server.browser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612793199018" />
-    <state x="644" y="444" key="publish.login" timestamp="1613480359603">
+    <state x="644" y="444" key="publish.login" timestamp="1613560941878">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613480359603" />
+    <state x="644" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613560941878" />
     <state x="2564" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613135214709" />
   </component>
 </project>
