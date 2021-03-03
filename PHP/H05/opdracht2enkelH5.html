@@ -12,14 +12,13 @@
 Hierna druk je op de submit knop en dan ga je naar een nieuwe pagina<br>
 waarbij je een plaatje van het gekozen dier hoort</p>
 
-<form action="imageResultaat.php" method="get">
-    Aap&ensp;  <input type="radio" name="aap" src="">
-    <br>
-    Kat&ensp;&nbsp;  <input type="radio" name="kat" src="">
-    <br>
-    Hond <input type="radio" name="hond" src="">
-    <br>
-    <input type="submit" name="knop" value="verstuur">
+<form action="imageResultaat.php" method="post">
+        <select name="dier[]">
+        <option value="gorilla">gorilla</option>
+        <option value="kat">kat</option>
+        <option value="shibaInu">shiba inu</option>
+    </select>
+    <input type="submit" value="Submit">
 </form>
 
 
