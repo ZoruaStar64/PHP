@@ -34,3 +34,8 @@ a.home {
     color: forestgreen;
 }
 
+div.checkBoxBox {
+    height: 100px;
+    width: 100px;
+    border: black 2px;
+}
