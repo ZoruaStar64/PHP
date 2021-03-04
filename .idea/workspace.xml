@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7651886f-fd68-4e21-8bfd-090cef014d16" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/PHP/H05/ingelogd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/H05/opdracht3+4H5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/kat.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/cat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/konijn.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/konijn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/lieveHeersBeestje.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/lieveHeersBeestje.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/maryRiverTurtle.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/maryRiverTurtle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/polarBear.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/polarBear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/shibaInu.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/shibaInu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMG/slang.png" beforeDir="false" afterPath="$PROJECT_DIR$/IMG/slang.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H05/opdracht2meerH5.html" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H05/opdracht2meerH5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H05/h05.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H05/h05.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +63,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sande\PHP\IMG" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sande\PHP\IMG" />
     </key>
   </component>
@@ -112,7 +107,7 @@
       <workItem from="1613721904102" duration="769000" />
       <workItem from="1614692466582" duration="608000" />
       <workItem from="1614759561854" duration="12810000" />
-      <workItem from="1614845841589" duration="10640000" />
+      <workItem from="1614845841589" duration="12622000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1614854466922</created>
@@ -188,10 +183,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612795164462" />
-    <state x="664" y="475" key="NewPhpFileDialog" timestamp="1614846922764">
+    <state x="664" y="475" key="NewPhpFileDialog" timestamp="1614864470085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="664" y="475" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614846922764" />
+    <state x="664" y="475" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614864470085" />
     <state x="2385" y="306" key="Vcs.Push.Dialog.v2" timestamp="1614854477656">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
