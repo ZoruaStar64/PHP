@@ -11,9 +11,18 @@
       <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" qname="@" />
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="school" />
+          </node>
         </introspection-scope>
       </schema-mapping>
+    </data-source>
+    <data-source name="@localhostPHP" uuid="e4e11658-91ca-4816-85b5-f9cdb5919ec5">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping />
     </data-source>
   </component>
 </project>

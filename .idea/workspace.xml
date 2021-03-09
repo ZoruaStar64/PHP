@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7651886f-fd68-4e21-8bfd-090cef014d16" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/PHP/H05/ingelogd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/H05/opdracht3+4H5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/H06/opdracht1H6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/H06/school.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H05/h05.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H05/h05.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H06/h06.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H06/h06.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,9 +73,14 @@
       <recent name="C:\Users\sande\PHP\IMG" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.opdracht1H3.php">
+  <component name="RunManager" selected="Database Script.school.sql">
     <configuration name="console.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$APPLICATION_CONFIG_DIR$/consoles/db/bbfaa4d2-78ad-4032-bf90-d0421eca4f5e/console.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <configuration name="school.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/PHP/H06/school.sql" />
       <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
@@ -81,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.school.sql" />
         <item itemvalue="PHP Script.opdracht1H3.php" />
         <item itemvalue="Database Script.console.sql" />
       </list>
@@ -107,7 +116,9 @@
       <workItem from="1613721904102" duration="769000" />
       <workItem from="1614692466582" duration="608000" />
       <workItem from="1614759561854" duration="12810000" />
-      <workItem from="1614845841589" duration="12622000" />
+      <workItem from="1614845841589" duration="12871000" />
+      <workItem from="1615194213168" duration="4662000" />
+      <workItem from="1615277014463" duration="5787000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1614854466922</created>
@@ -143,14 +154,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="421" y="210" key="#Deployment/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612794176049" />
+    <state x="760" y="214" key="#Inspections" timestamp="1615206302764">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="760" y="214" key="#Inspections/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615206302764" />
+    <state x="655" y="327" key="#Notifications" timestamp="1615293313502">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="327" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293313502" />
     <state x="506" y="233" key="#Options" timestamp="1612793302678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="506" y="233" key="#Options/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612793302678" />
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612794770888">
+    <state x="511" y="374" key="#SQL_Dialects" timestamp="1615206334465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612794770888" />
+    <state x="511" y="374" key="#SQL_Dialects/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615206334465" />
+    <state x="1048" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615293296312">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1048" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293296312" />
     <state x="600" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613390844036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -167,38 +190,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="609" y="307" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613036682145" />
-    <state width="1293" height="282" key="GridCell.Tab.0.bottom" timestamp="1612795164462">
+    <state width="1031" height="244" key="GridCell.Tab.0.bottom" timestamp="1615293487356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612795164462" />
-    <state width="1293" height="282" key="GridCell.Tab.0.center" timestamp="1612795164462">
+    <state width="1031" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293487356" />
+    <state width="1031" height="244" key="GridCell.Tab.0.center" timestamp="1615293487356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612795164462" />
-    <state width="1293" height="282" key="GridCell.Tab.0.left" timestamp="1612795164462">
+    <state width="1031" height="244" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293487356" />
+    <state width="1031" height="244" key="GridCell.Tab.0.left" timestamp="1615293487356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612795164462" />
-    <state width="1293" height="282" key="GridCell.Tab.0.right" timestamp="1612795164462">
+    <state width="1031" height="244" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293487356" />
+    <state width="1031" height="244" key="GridCell.Tab.0.right" timestamp="1615293487356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612795164462" />
-    <state x="664" y="475" key="NewPhpFileDialog" timestamp="1614864470085">
+    <state width="1031" height="244" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293487356" />
+    <state width="271" height="457" key="HiddenNamespacesPopup" timestamp="1615293451215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="664" y="475" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614864470085" />
+    <state width="271" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293451215" />
+    <state x="664" y="475" key="NewPhpFileDialog" timestamp="1615293821760">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="475" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293821760" />
     <state x="2385" y="306" key="Vcs.Push.Dialog.v2" timestamp="1614854477656">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2385" y="306" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614854477656" />
+    <state x="993" y="274" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1615206352977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="993" y="274" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615206352977" />
     <state x="714" y="282" key="ftp.server.browser" timestamp="1612793199018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="282" key="ftp.server.browser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612793199018" />
-    <state x="644" y="444" key="publish.login" timestamp="1614846907761">
+    <state x="644" y="444" key="publish.login" timestamp="1615277222449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1614846907761" />
+    <state x="644" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615277222449" />
     <state x="2564" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613135214709" />
   </component>
 </project>
