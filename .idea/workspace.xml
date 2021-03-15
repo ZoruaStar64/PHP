@@ -20,13 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7651886f-fd68-4e21-8bfd-090cef014d16" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/H06/opdracht1H6.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/H06/school.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/H06/databaseInlog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/H06/opdracht2H6.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP/H06/h06.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H06/h06.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H06/opdracht1H6.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H06/opdracht1H6.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/IMG" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -118,7 +119,14 @@
       <workItem from="1614759561854" duration="12810000" />
       <workItem from="1614845841589" duration="12871000" />
       <workItem from="1615194213168" duration="4662000" />
-      <workItem from="1615277014463" duration="5787000" />
+      <workItem from="1615277014463" duration="6549000" />
+      <workItem from="1615375759089" duration="1043000" />
+      <workItem from="1615458746589" duration="8659000" />
+      <workItem from="1615544891744" duration="22000" />
+      <workItem from="1615734789698" duration="1056000" />
+      <workItem from="1615798468470" duration="9003000" />
+      <workItem from="1615825552835" duration="614000" />
+      <workItem from="1615830132384" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1614854466922</created>
@@ -150,10 +158,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="210" key="#Deployment" timestamp="1612794176049">
+    <state x="421" y="210" key="#Deployment" timestamp="1615736332966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="421" y="210" key="#Deployment/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612794176049" />
+    <state x="421" y="210" key="#Deployment/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615736332966" />
     <state x="760" y="214" key="#Inspections" timestamp="1615206302764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -166,14 +174,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="506" y="233" key="#Options/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612793302678" />
-    <state x="511" y="374" key="#SQL_Dialects" timestamp="1615206334465">
+    <state x="511" y="374" key="#SQL_Dialects" timestamp="1615459130358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="511" y="374" key="#SQL_Dialects/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615206334465" />
-    <state x="1048" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615293296312">
+    <state x="511" y="374" key="#SQL_Dialects/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615459130358" />
+    <state x="1048" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615376603103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1048" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293296312" />
+    <state x="1048" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615376603103" />
+    <state x="761" y="282" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1615825569803">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="282" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615825569803" />
     <state x="600" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613390844036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -186,10 +198,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="148" y="232" width="1363" height="640" key="DirDiffDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612794176428" />
-    <state x="609" y="307" key="FileChooserDialogImpl" timestamp="1613036682145">
+    <state x="609" y="307" key="FileChooserDialogImpl" timestamp="1615544912563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="609" y="307" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613036682145" />
+    <state x="609" y="307" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615544912563" />
     <state width="1031" height="244" key="GridCell.Tab.0.bottom" timestamp="1615293487356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -206,14 +218,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1031" height="244" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293487356" />
-    <state width="271" height="457" key="HiddenNamespacesPopup" timestamp="1615293451215">
+    <state width="271" height="457" key="HiddenNamespacesPopup" timestamp="1615800111322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="271" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293451215" />
-    <state x="664" y="475" key="NewPhpFileDialog" timestamp="1615293821760">
+    <state width="271" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615800111322" />
+    <state x="664" y="475" key="NewPhpFileDialog" timestamp="1615458949067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="664" y="475" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293821760" />
+    <state x="664" y="475" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615458949067" />
     <state x="2385" y="306" key="Vcs.Push.Dialog.v2" timestamp="1614854477656">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -226,10 +238,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="282" key="ftp.server.browser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612793199018" />
-    <state x="644" y="444" key="publish.login" timestamp="1615277222449">
+    <state x="644" y="444" key="publish.login" timestamp="1615799713451">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615277222449" />
+    <state x="644" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615799713451" />
     <state x="2564" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613135214709" />
   </component>
 </project>

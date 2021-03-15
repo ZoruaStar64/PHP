@@ -15,7 +15,7 @@
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/u3651p69583_sander</jdbc-url>
+      <jdbc-url>jdbc:mysql://web0098.zxcs.nl:3306/u3651p69583_sander</jdbc-url>
       <driver-properties>
         <property name="serverTimezone" value="GMT0" />
       </driver-properties>

@@ -58,5 +58,8 @@ while ($arraytable = $statement->fetch()) {
 
 </table>
 
+<p><a class='home' href='../../index.php'>Terug naar home</a><br><a href='../../PHP/H06/h06.php'>Terug naar Hoofdstuk 6</a></p>
+
+
 </body>
 </html>
