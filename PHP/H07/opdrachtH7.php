@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+echo $_POST['email'] . "<br>";
+echo $_POST['wachtwoord'];
+
+
+?>
+
 
 <!doctype html>
 <html lang="en">
@@ -21,10 +30,10 @@ zonder admin rol dan zegt het dat je geen toegang hebt als je wel de rol hebt da
 <p>De normale gebruiker's e-mail + wachtwoord zijn: ikbengebruiker@test.hall || degebruikerswachtwoord7390<br>
 en die van de admin is dan: ikbendeadministratorhier@test.krol || mijnwachtwoordissupergeheim9471034</p>
 
-<form action="cookiePlusSessie.php" method="post">
-    Email&emsp;&emsp;&ensp;&nbsp; <input type="text" name="email" value="" required>
+<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
+    Email&emsp;&emsp;&ensp;&nbsp; <input type="text" name="email" value="">
     <br>
-    Wachtwoord <input type="password" name="wachtwoord" value="" required>
+    Wachtwoord <input type="password" name="wachtwoord" value="">
     <br>
     <input type="submit" name="knop" value="verstuur">
 </form>
@@ -33,4 +42,5 @@ en die van de admin is dan: ikbendeadministratorhier@test.krol || mijnwachtwoord
 <p><a class='home' href='../../index.php'>Terug naar home</a><br><a href='../../PHP/H07/h07.php'>Terug naar Hoofdstuk 7</a></p>
 
 </body>
+
 </html>

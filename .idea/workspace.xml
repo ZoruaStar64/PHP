@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7651886f-fd68-4e21-8bfd-090cef014d16" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/PHP/H07/cookiePlusSessie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/H07/opdrachtH7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CSS/H7.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H07/h07.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H07/h07.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H07/cookiePlusSessie.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H07/cookiePlusSessie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H07/opdrachtH7.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H07/opdrachtH7.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +123,8 @@
       <workItem from="1615798468470" duration="9003000" />
       <workItem from="1615825552835" duration="614000" />
       <workItem from="1615830132384" duration="153000" />
-      <workItem from="1615884254242" duration="3592000" />
+      <workItem from="1615884254242" duration="3697000" />
+      <workItem from="1616072007941" duration="3241000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1614854466922</created>
@@ -175,10 +176,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="511" y="374" key="#SQL_Dialects/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615459130358" />
-    <state x="1048" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615376603103">
+    <state x="1048" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616078427000">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1048" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615376603103" />
+    <state x="1048" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616078427000" />
     <state x="761" y="282" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1615825569803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -215,10 +216,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1031" height="244" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293487356" />
-    <state width="271" height="457" key="HiddenNamespacesPopup" timestamp="1615800111322">
+    <state width="271" height="457" key="HiddenNamespacesPopup" timestamp="1616078499847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="271" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615800111322" />
+    <state width="271" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616078499847" />
     <state x="664" y="475" key="NewPhpFileDialog" timestamp="1615903828217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -235,10 +236,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="282" key="ftp.server.browser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612793199018" />
-    <state x="644" y="444" key="publish.login" timestamp="1615903040182">
+    <state x="644" y="444" key="publish.login" timestamp="1616073526184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615903040182" />
+    <state x="644" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616073526184" />
     <state x="2564" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613135214709" />
   </component>
 </project>

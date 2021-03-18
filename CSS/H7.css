@@ -1,0 +1,33 @@
+
+body {
+    background-color: wheat;
+
+}
+
+h1 {
+    color: #1c44b7;
+}
+
+p {
+    color: black;
+}
+
+a:link {
+    color: #8a0303;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dd2047;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ff008c;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
