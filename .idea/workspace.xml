@@ -20,16 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7651886f-fd68-4e21-8bfd-090cef014d16" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/PHP/H07/adminOnlyDatabase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/H07/cookiePlusSessieDatabase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PHP/H07/opdrachtH7Database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e4e11658-91ca-4816-85b5-f9cdb5919ec5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e4e11658-91ca-4816-85b5-f9cdb5919ec5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H06/databaseInlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H06/databaseInlog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H06/opdracht1H6.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H06/opdracht1H6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H06/opdracht2H6.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H06/opdracht2H6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H07/h07.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H07/h07.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H07/opdrachtH7Database.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H07/opdrachtH7Database.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +125,7 @@
       <workItem from="1615884254242" duration="3697000" />
       <workItem from="1616072007941" duration="3274000" />
       <workItem from="1616080255419" duration="1084000" />
-      <workItem from="1616141204863" duration="8763000" />
+      <workItem from="1616141204863" duration="9965000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1614854466922</created>

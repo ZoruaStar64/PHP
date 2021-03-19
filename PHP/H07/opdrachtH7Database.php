@@ -13,6 +13,7 @@ try {
 }
 $email = $_POST['email'];
 $wachtwoord = $_POST['wachtwoord'];
+
 //$role = $_POST['role'];
 
 $query = "select * from session where `e-mail` = '$email'";
@@ -27,11 +28,6 @@ while ($arraytable = $statement->fetch()) {
 
 }
 
-$users = array(
-    "ikbengebruiker@test.hall" => array("wachtwoord" => "degebruikerswachtwoord7390", "rol" => "Gebruiker"),
-    "ikbendeadministratorhier@test.krol" => array("wachtwoord" => "mijnwachtwoordissupergeheim9471034", "rol" => "Administrator")
-
-);
 
 if (isset($_GET["logout"])) {
     $_SESSION = array();
@@ -46,6 +42,8 @@ if (isset($_POST['knop'])
         "role" => $trueRole);
 
     $message = "Welkom " . $_SESSION["user"] ["naam"] . " met de rol " . $_SESSION["user"] ["role"];
+} else if ($email !== $trueEmail && $wachtwoord !== $trueWachtwoord) {
+    $message = "Deze combinatie van gegevens komen niet voor in de database probeer het opnieuw!";
 } else {
     $message = "Inloggen";
 }
