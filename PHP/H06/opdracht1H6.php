@@ -24,7 +24,7 @@ en zorg ik ervoor dat je in een tabel alle gegevens van cursisten kan zien<br>
 <table>
 
 <?php
-require_once ('creds.php');
+require_once('../../PHP/MISC/creds.php');
 
 try {
     $dbh = new PDO('mysql:host='.$host.';dbname='.$db.';port='.$port, $user, $pass);

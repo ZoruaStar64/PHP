@@ -20,10 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7651886f-fd68-4e21-8bfd-090cef014d16" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/PHP/H07/adminOnly.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/H07/adminOnlyDatabase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/H07/cookiePlusSessieDatabase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/H07/opdrachtH7Database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e4e11658-91ca-4816-85b5-f9cdb5919ec5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e4e11658-91ca-4816-85b5-f9cdb5919ec5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H07/cookiePlusSessie.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H07/cookiePlusSessie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H07/opdrachtH7.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H07/opdrachtH7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H06/databaseInlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H06/databaseInlog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H06/opdracht1H6.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H06/opdracht1H6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H06/opdracht2H6.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H06/opdracht2H6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H07/h07.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H07/h07.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +69,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sande\PHP\IMG" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sande\PHP\PHP\MISC" />
       <recent name="C:\Users\sande\PHP\IMG" />
     </key>
   </component>
@@ -126,7 +133,7 @@
       <workItem from="1615884254242" duration="3697000" />
       <workItem from="1616072007941" duration="3274000" />
       <workItem from="1616080255419" duration="1084000" />
-      <workItem from="1616141204863" duration="4837000" />
+      <workItem from="1616141204863" duration="8763000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1614854466922</created>
@@ -222,10 +229,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="271" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616078499847" />
-    <state x="664" y="475" key="NewPhpFileDialog" timestamp="1616145009025">
+    <state x="664" y="475" key="NewPhpFileDialog" timestamp="1616146682812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="664" y="475" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616145009025" />
+    <state x="664" y="475" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616146682812" />
     <state x="2385" y="306" key="Vcs.Push.Dialog.v2" timestamp="1614854477656">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

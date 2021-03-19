@@ -23,7 +23,7 @@ het enige wat aan de opdracht verandert is is dat ik nu de gegevens uit een data
 </form>
 
     <?php
-    require_once ('creds.php');
+    require_once('../../PHP/MISC/creds.php');
 
     try {
         $dbh = new PDO('mysql:host='.$host.';dbname='.$db.';port='.$port, $user, $pass);
