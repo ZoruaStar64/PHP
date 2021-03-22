@@ -19,10 +19,10 @@ en (getProgramma: retouneert een array met de twee strings)</p>
 class Radioprogramma {
 
    public function getLiedjes() {
-       $Liedjes = ["bo en - My Time ", "<br>", "Xenoblade Chronicles 2 - Drifting Soul ", "<br>", "Super Mario Odyssey - Jump up, Super Star! ", "<br>", "Bonnie Tyler - Holding out for a hero ", "<br>",
-           "Coda - Fighting Gold ", "<br>", "Neon Trees - Moving in the dark ", "<br>", "Greek Fire - A Real Life ", "<br>", "Adventure Time - Come along with me ", "<br>",
-           "Steven Universe Future - Being Human ", "<br>", "John Scatman - Scatman's World ", "<br>", "1, 2, 3 / After the Rain ", "<br>",
-           "Super Mario Odyssey - Break Free (Lead the Way) ", "<br>", "Freddy Mercury - Don't Stop Me Now ", "<br>", "Phyrnna - A Breeze from Home "];
+       $Liedjes = ["bo en - My Time <br>", "Xenoblade Chronicles 2 - Drifting Soul <br>", "Super Mario Odyssey - Jump up, Super Star! <br>", "Bonnie Tyler - Holding out for a hero <br>",
+           "Coda - Fighting Gold <br>", "Neon Trees - Moving in the dark <br>", "Greek Fire - A Real Life <br>", "Adventure Time - Come along with me <br>",
+           "Steven Universe Future - Being Human <br>", "John Scatman - Scatman's World <br>", "1, 2, 3 / After the Rain <br>",
+           "Super Mario Odyssey - Break Free (Lead the Way) <br>", "Freddy Mercury - Don't Stop Me Now <br>", "Phyrnna - A Breeze from Home <br>"];
         foreach ($Liedjes as $Lied) {
             echo $Lied;
         }
