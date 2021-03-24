@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7651886f-fd68-4e21-8bfd-090cef014d16" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/IMG/monkey-business.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/monkey_swings.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CSS/monkeyBusiness.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/monkeyBusiness.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H08/opdracht1H8.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H08/opdracht1H8.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP/H08/opdracht2H8.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H08/opdracht2H8.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +129,7 @@
       <workItem from="1616141204863" duration="10030000" />
       <workItem from="1616403100795" duration="9309000" />
       <workItem from="1616505462535" duration="2146000" />
-      <workItem from="1616573405957" duration="5380000" />
+      <workItem from="1616573405957" duration="5814000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1614854466922</created>

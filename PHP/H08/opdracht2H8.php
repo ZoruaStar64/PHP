@@ -7,18 +7,16 @@
     <title>Monkey Business</title>
 </head>
 <body>
-<h1>vorm van pagina: (alles moet in het midden van de bekijker's scherm zijn)</h1>
-<h2>Monkey Business Logo<br>select your monkey!<br>Image van een aap op een lijn<br>De array van apennamen</h2>
 
 <?php
-echo "<p><a href='../../IMG/monkey-business.png'></a></p>";
-echo "<h3>select your monkey!</h3>";
-echo "<p><a href='../../IMG/monkey_swings.png'></a></p>";
+echo "<p><img src='../../IMG/monkey-business.png'></p>";
+echo "<h1>select your monkey!</h1>";
+echo "<img src='../../IMG/monkey_swings.png'>";
 
 class apenNamen {
 
    public function links() {
-       $namen = ["Baviaan", "Guereza", "Langoer", "Neusaap", "Tamarin", "Brulaap", "Halfaap", "Mandril", "Gorilla", "Chimpanzee", "Orang-Oetan"];
+       $namen = ["Baviaan", "Guereza", "Langoer", "Neusaap", "Tamarin", "Brulaap", "Halfaap", "Mandril", "Gorilla", "Chimpanzee", "Orang-Oetan", "Mensaap", "Spinaap"];
 
        foreach ($namen as $aapnaam) {
           echo "<p><a class='apenNamen' href='https://www.google.nl/search?q=" . $aapnaam ."&tbm=isch'>" . $aapnaam . "</a></p>";
