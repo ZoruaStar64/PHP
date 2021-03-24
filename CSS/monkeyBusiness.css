@@ -1,0 +1,9 @@
+* {
+    text-align: center;
+}
+
+a.apenNamen {
+    color: #ff8400;
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+}
