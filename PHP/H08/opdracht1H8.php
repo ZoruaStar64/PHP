@@ -42,5 +42,6 @@ $Radio->getLiedjes();
 
 ?>
 <p><a class='home' href='../../index.php'>Terug naar home</a></p>
+<p><a class='home' href='../../PHP/H08/h08.php'>Terug naar H8</a></p>
 </body>
 </html>
