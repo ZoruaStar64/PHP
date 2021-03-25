@@ -15,6 +15,7 @@ echo "<img src='../../IMG/monkey_swings.png'>";
 
 class apenNamen {
 
+
    public function links() {
        $namen = ["Baviaan", "Guereza", "Langoer", "Neusaap", "Tamarin", "Brulaap", "Halfaap", "Mandril", "Gorilla", "Chimpanzee", "Orang-Oetan", "Mensaap", "Spinaap"];
 
