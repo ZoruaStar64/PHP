@@ -1,17 +1,44 @@
 <!doctype html>
 <html lang="en">
 <head>
-        <link rel="stylesheet" href="../../CSS/styles.css">
+        <link rel="stylesheet" href="../../CSS/wheely.css">
     <title>Mr Wheely's Garage</title>
 </head>
 <body>
+<header>
+    <div class="container wheely"></div>
+</header>
+
+<form action="opdracht3H8.php" method="post">
+    Merk: <br><br>
+    <select name="merk[]">
+        <option value="Alles">--Alle merken--</option>
+        <option value="AlfaRomeo">Alfa Romeo</option>
+        <option value="Audi">Audi</option>
+        <option value="Ferrari">Ferrari</option>
+        <option value="Fiat">Fiat</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="Opel">Opel</option>
+        <option value="Volkswagen">Volkswagen</option>
+    </select>
+    <br><br>
+    Minimale Prijs:
+    <br><br>
+    <input type="number" name="minimumPrijs">
+    <br><br>
+    Maximale Prijs:
+    <br><br>
+    <input type="number" name="maximumPrijs">
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
 
 <?php
 
 
 class Auto {
 
-   private $merk = ["Audi", "Ferrari", "Fiat", "Mercedes", "Opel", "Volkswagen"];
+   private $merk = ["Alfa Romeo", "Audi", "Ferrari", "Fiat", "Mercedes", "Opel", "Volkswagen"];
    private $type = "";
    private $prijs = "";
    private $url = "";
@@ -37,10 +64,10 @@ class Auto {
 
 class Autooverzicht {
 
-    private $autoos = [""];
+    private $autoos = [];
 
     public function voegAutoToe() {
-
+    $this->autoos = $this->autoos + ["Alfa Romeo ", "Audi ", "Ferrari ", "Fiat ", "Mercedes ", "Opel ", "Volkswagen "];
     }
 
     public function getGefilterdeLijst() {
@@ -48,10 +75,17 @@ class Autooverzicht {
     }
 
     public function getAutoLijst() {
-
+    foreach ($this->autoos as $auto) {
+        echo $auto;
+        }
     }
 
 }
+
+$garageProgramma = new Auto();
+$garageProgramma = new Autooverzicht();
+$garageProgramma->voegAutoToe();
+$garageProgramma->getAutoLijst();
 
 
 ?>
