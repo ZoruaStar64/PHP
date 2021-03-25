@@ -20,12 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7651886f-fd68-4e21-8bfd-090cef014d16" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/CSS/wheely.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IMG/wheely_header.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e4e11658-91ca-4816-85b5-f9cdb5919ec5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e4e11658-91ca-4816-85b5-f9cdb5919ec5.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H06/databaseInlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H06/databaseInlog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H06/opdracht1H6.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H06/opdracht1H6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H06/opdracht2H6.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H06/opdracht2H6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H07/cookiePlusSessie.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H07/cookiePlusSessie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H07/h07.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H07/h07.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H07/opdrachtH7.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H07/opdrachtH7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP/H08/h08.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H08/h08.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSS/monkeyBusiness.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/monkeyBusiness.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP/H08/opdracht2H8.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H08/opdracht2H8.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHP/H08/opdracht3H8.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP/H08/opdracht3H8.php" afterDir="false" />
+>>>>>>> 0e70f45796979912780bf17076d8f0430263a2a3
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +67,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/IMG" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,11 +77,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sande\PHP\IMG" />
       <recent name="C:\Users\sande\PHP\PHP\MISC" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sande\PHP\IMG" />
     </key>
   </component>
@@ -118,6 +130,11 @@
       <workItem from="1614759561854" duration="12810000" />
       <workItem from="1614845841589" duration="12871000" />
       <workItem from="1615194213168" duration="4662000" />
+<<<<<<< HEAD
+      <workItem from="1615277014463" duration="5787000" />
+      <workItem from="1615996502380" duration="1118000" />
+      <workItem from="1616591671616" duration="808000" />
+=======
       <workItem from="1615277014463" duration="6549000" />
       <workItem from="1615375759089" duration="1043000" />
       <workItem from="1615458746589" duration="8659000" />
@@ -132,8 +149,8 @@
       <workItem from="1616141204863" duration="10030000" />
       <workItem from="1616403100795" duration="9309000" />
       <workItem from="1616505462535" duration="2146000" />
-      <workItem from="1616573405957" duration="6410000" />
-      <workItem from="1616659696849" duration="7170000" />
+      <workItem from="1616573405957" duration="5814000" />
+>>>>>>> 0e70f45796979912780bf17076d8f0430263a2a3
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1614854466922</created>
@@ -165,10 +182,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="210" key="#Deployment" timestamp="1615736332966">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="337" y="142" key="#Deployment" timestamp="1615996576355">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="421" y="210" key="#Deployment/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615736332966" />
+    <state x="337" y="142" key="#Deployment/0.0.1536.824@0.0.1536.824" timestamp="1615996576355" />
+    <state x="421" y="210" key="#Deployment/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612794176049" />
     <state x="760" y="214" key="#Inspections" timestamp="1615206302764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -181,6 +199,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="506" y="233" key="#Options/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612793302678" />
+<<<<<<< HEAD
+    <state x="511" y="374" key="#SQL_Dialects" timestamp="1615206334465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="511" y="374" key="#SQL_Dialects/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615206334465" />
+    <state x="722" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615988360082">
+      <screen x="0" y="0" width="1536" height="824" />
+=======
     <state x="511" y="374" key="#SQL_Dialects" timestamp="1615459130358">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -191,24 +217,29 @@
     <state x="1048" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616078427000" />
     <state x="761" y="282" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1615825569803">
       <screen x="0" y="0" width="1920" height="1040" />
+>>>>>>> 0e70f45796979912780bf17076d8f0430263a2a3
     </state>
-    <state x="761" y="282" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615825569803" />
+    <state x="722" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1615988360082" />
+    <state x="1048" y="143" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293296312" />
     <state x="600" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613390844036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613390844036" />
-    <state x="148" y="232" width="1363" height="640" key="DiffContextDialog" timestamp="1612793996936">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="118" y="184" width="1091" height="508" key="DiffContextDialog" timestamp="1616592486839">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="118" y="184" width="1091" height="508" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1616592486839" />
     <state x="148" y="232" width="1363" height="640" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612793996936" />
-    <state x="148" y="232" width="1363" height="640" key="DirDiffDialog" timestamp="1616664920374">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="118" y="184" width="1091" height="508" key="DirDiffDialog" timestamp="1616592486839">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="148" y="232" width="1363" height="640" key="DirDiffDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616664920374" />
-    <state x="609" y="307" key="FileChooserDialogImpl" timestamp="1615544912563">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="118" y="184" width="1091" height="508" key="DirDiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1616592486839" />
+    <state x="148" y="232" width="1363" height="640" key="DirDiffDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612794176428" />
+    <state x="487" y="243" key="FileChooserDialogImpl" timestamp="1616591707811">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="609" y="307" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615544912563" />
+    <state x="487" y="243" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1616591707811" />
+    <state x="609" y="307" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613036682145" />
     <state width="1031" height="244" key="GridCell.Tab.0.bottom" timestamp="1615293487356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -225,6 +256,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1031" height="244" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293487356" />
+<<<<<<< HEAD
+    <state width="217" height="363" key="HiddenNamespacesPopup" timestamp="1615987456974">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="217" height="363" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1615987456974" />
+    <state width="271" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293451215" />
+    <state x="221" y="78" key="MergeDialog" timestamp="1615987437014">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="221" y="78" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1615987437014" />
+    <state x="664" y="475" key="NewPhpFileDialog" timestamp="1615293821760">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="475" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615293821760" />
+=======
     <state width="271" height="457" key="HiddenNamespacesPopup" timestamp="1616078499847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -233,6 +279,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="664" y="475" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616409112827" />
+>>>>>>> 0e70f45796979912780bf17076d8f0430263a2a3
     <state x="2385" y="306" key="Vcs.Push.Dialog.v2" timestamp="1614854477656">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -241,14 +288,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="993" y="274" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615206352977" />
+    <state x="660" y="339" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615987386021">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="660" y="339" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1615987386021" />
     <state x="714" y="282" key="ftp.server.browser" timestamp="1612793199018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="282" key="ftp.server.browser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612793199018" />
-    <state x="644" y="444" key="publish.login" timestamp="1616661892044">
+<<<<<<< HEAD
+    <state x="515" y="352" key="publish.login" timestamp="1616078705730">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="515" y="352" key="publish.login/0.0.1536.824@0.0.1536.824" timestamp="1616078705730" />
+    <state x="644" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1615277222449" />
+=======
+    <state x="644" y="444" key="publish.login" timestamp="1616578431486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616661892044" />
+    <state x="644" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1616578431486" />
+>>>>>>> 0e70f45796979912780bf17076d8f0430263a2a3
     <state x="2564" y="444" key="publish.login/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1613135214709" />
   </component>
 </project>
