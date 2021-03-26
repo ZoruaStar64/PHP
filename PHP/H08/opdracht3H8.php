@@ -31,62 +31,38 @@
     <input type="number" name="maximumPrijs">
     <br><br>
     <input type="submit" value="Submit">
+    <br><br>
 </form>
 
 <?php
 
+require ('Auto.php');
 
-class Auto {
+$autoos = new Autooverzicht();
+//$autoos->voegAutoToe('Ferrari', 122500.00, '../../IMG/wheelys/ferrari2.png');
 
-   private $merk = ["Alfa Romeo", "Audi", "Ferrari", "Fiat", "Mercedes", "Opel", "Volkswagen"];
-   private $type = "";
-   private $prijs = "";
-   private $url = "";
-   private $snelheid = 0;
-
-    public function geefGas() {
-        $this->snelheid = 0;
-        if (null) {
-            $this->snelheid = $this->snelheid + 5;
-        }
-
-    }
-
-    public function rem() {
-        $this->snelheid;
-        if ($this->snelheid !== 0) {
-            $this->snelheid = $this->snelheid - 5;
-        }
-
-    }
-
+if (isset($_POST['merk']) && !empty($_POST['merk'])) {
+    $AutoMerk = $_POST['merk'];
+} else {
+    $AutoMerk = "Alles";
 }
 
-class Autooverzicht {
-
-    private $autoos = [];
-
-    public function voegAutoToe() {
-    $this->autoos = $this->autoos + ["Alfa Romeo ", "Audi ", "Ferrari ", "Fiat ", "Mercedes ", "Opel ", "Volkswagen "];
-    }
-
-    public function getGefilterdeLijst() {
-
-    }
-
-    public function getAutoLijst() {
-    foreach ($this->autoos as $auto) {
-        echo $auto;
-        }
-    }
-
+if (isset($_POST['minimumPrijs']) && !empty($_POST['minimumPrijs'])) {
+    $minPrijs = $_POST['minimumPrijs'];
+} else {
+    $minPrijs = 0;
 }
 
-$garageProgramma = new Auto();
-$garageProgramma = new Autooverzicht();
-$garageProgramma->voegAutoToe();
-$garageProgramma->getAutoLijst();
+if (isset($_POST['maximumPrijs']) && !empty($_POST['maximumPrijs'])) {
+    $maxPrijs = $_POST['maximumPrijs'];
+} else {
+    $maxPrijs = 99999999999999;
+}
 
+foreach ($autoos->getGefilterdeLijst($minPrijs, $maxPrijs) as $auto) {
+        echo $auto->getMerk() . ' - ' . $auto->getPrijs() . '<br>';
+        echo '<img src="' . $auto->getUrl() . '" alt="plaatje van auto">';
+}
 
 ?>
 <p><a class='home' href='../../index.php'>Terug naar home</a></p>
