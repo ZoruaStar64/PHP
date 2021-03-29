@@ -6,10 +6,7 @@ class Auto {
     private $merk;
     private $prijs;
     private $url;
-    private $type;
-
-
-
+    /*private $type;*/
 
     public function __construct($merk, $prijs, $url) {
         $this->merk = $merk;
@@ -54,6 +51,7 @@ class Autooverzicht {
             new Auto('Audi', 102500.00, '../../IMG/wheelys/audi1.png'),
             new Auto('Ferrari', 99500.00, '../../IMG/wheelys/ferrari1.png'),
             new Auto('Fiat', 10500.00, '../../IMG/wheelys/fiat1.png'),
+
         ];
     }
 
@@ -62,16 +60,52 @@ class Autooverzicht {
     $this->autoos[] = $newAuto;
     }
 
-    public function getGefilterdeLijst($minPrijs, $maxPrijs) {
+/*    public function getGefilterdeLijst($minPrijs, $maxPrijs, $AutoMerk) {
         $gefilterdelijst = [];
 
         foreach ($this->autoos as $auto) {
-            if ($auto->getPrijs() > $minPrijs && $auto->getPrijs() < $maxPrijs /*&&  $this->autoos == $_POST['merk']*/) {
-            $gefilterdelijst[] = $auto;
+            if ($auto->getPrijs() > $minPrijs && $auto->getPrijs() < $maxPrijs && $auto->getMerk() == $AutoMerk ) {
+            $gefilterdelijst = $auto;
+            print_r("if");
             }
+            else {
+                $gefilterdelijst = $this->autoos;
+                print_r("else");
+            }
+
         }
 
-        //print_r($auto->getMerk());
+        print_r($auto->getMerk());
+        echo "<br>";
+        print_r($_GET['merk']);
+        echo "<br>";
+        print_r($AutoMerk);
+        echo "<br>";
+        return $gefilterdelijst;
+    }*/
+
+    public function getGefilterdeLijst($AutoMerk) {
+        $gefilterdelijst = [];
+        foreach ($this->autoos as $auto) {
+            if ($auto->getMerk() == $AutoMerk ) {
+                $gefilterdelijst = $auto;
+                print_r("if");
+            }
+ /*           else {
+                $gefilterdelijst = $this->autoos;
+                print_r("else");
+            }*/
+
+        }
+
+
+        print_r($auto->getMerk());
+        echo "<br>";
+        print_r($_GET['merk']);
+        echo "<br>";
+        print_r($AutoMerk);
+        echo "<br>";
+        print_r($gefilterdelijst);
         return $gefilterdelijst;
     }
 
