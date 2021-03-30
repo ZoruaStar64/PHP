@@ -8,10 +8,13 @@
 <header>
     <div class="container wheely"></div>
 </header>
-
+<div class="inhoud-container">
 <form action="opdracht3H8.php" method="get">
-    Merk: <br><br>
-    <select name="merk[]">
+
+    <label class="form-control">Merk:<br></label>
+    <select class="form-control"
+            name="merk[]">
+
         <option value="Alles">--Alle merken--</option>
         <option value="AlfaRomeo">Alfa Romeo</option>
         <option value="Audi">Audi</option>
@@ -20,18 +23,18 @@
         <option value="Mercedes">Mercedes</option>
         <option value="Opel">Opel</option>
         <option value="Volkswagen">Volkswagen</option>
+        <option value="Tesla">Tesla</option>
     </select>
     <br><br>
-    Minimale Prijs:
+    <label class="form-control">Minimale Prijs:</label>
+
+    <input class="form-control" type="text" name="minimumPrijs">
     <br><br>
-    <input type="number" name="minimumPrijs">
+    <label class="form-control">Maximale Prijs:</label>
+    <input class="form-control" type="text" name="maximumPrijs" >
     <br><br>
-    Maximale Prijs:
-    <br><br>
-    <input type="number" name="maximumPrijs">
-    <br><br>
-    <input type="submit" value="Submit">
-    <br><br>
+    <input class="form-control" style="width: 100px" type="submit" value="Submit">
+    <br>
 </form>
 
 <?php
@@ -58,19 +61,19 @@ if (isset($_GET['maximumPrijs']) && !empty($_GET['maximumPrijs'])) {
 } else {
     $maxPrijs = 99999999999999;
 }
+echo '<div class="auto-houder">';
+foreach ($autoos->getGefilterdeLijst($minPrijs, $maxPrijs, $AutoMerk) as $auto) {
 
-/*foreach ($autoos->getGefilterdeLijst($minPrijs, $maxPrijs, $AutoMerk) as $auto) {
-        echo $auto->getMerk() . ' - ' . $auto->getPrijs() . '<br>';
-        echo '<img src="' . $auto->getUrl() . '" alt="plaatje van auto">';
-}*/
-
-foreach ($autoos->getGefilterdeLijst($AutoMerk) as $auto) {
-    echo $auto->getMerk() . ' - ' . $auto->getPrijs() . '<br>';
-    echo '<img src="' . $auto->getUrl() . '" alt="plaatje van auto">';
+        echo '<div class="wheely-img" style="background-image: url(' . $auto->getUrl() . ')">
+        <h5>Merk: ' . $auto->getMerk() . ' <br> Prijs: &euro; ' . $auto->getPrijs() . '</h5>
+        </div>';
 }
+echo '</div>';
+ echo "<p><a class='home' href='../../index.php'>Terug naar home</a></p>";
+ echo "<p><a class='home' href='../../PHP/H08/h08.php'>Terug naar H8</a></p>";
 
 ?>
-<p><a class='home' href='../../index.php'>Terug naar home</a></p>
-<p><a class='home' href='../../PHP/H08/h08.php'>Terug naar H8</a></p>
+</div>
+
 </body>
 </html>
