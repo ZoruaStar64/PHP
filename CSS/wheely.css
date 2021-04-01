@@ -3,7 +3,7 @@ body {
 }
 
 .wheely {
-    background-image: url("../IMG/wheely_header.png");
+    background-image: url("../IMG/wheelys/wheely_header.png");
     background-position: center center;
     background-size: cover;
     background-color: black;
