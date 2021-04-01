@@ -54,25 +54,15 @@ $message = "Inloggen";
 <!doctype html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../../CSS/H7.css">
-    <title>PHP H7</title>
+    <link rel="stylesheet" href="../../CSS/bakkerij.css">
+    <title>Bakkerij Wim Vlecht</title>
 </head>
 <body>
 <a href="wimVlecht'sInlogPagina.php">Klik hier om in te loggen als Admin</a>
 <a href="opdrachtH9.php?logout">Klik hier om uit te loggen</a>
-<h1>Hoofdstuk 7's opdracht</h1>
+<h1>Hoofdstuk 9's opdracht</h1>
 
-<p>Welkom bij hoofdstuk 7's opdracht</p>
-
-<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
-    Email&emsp;&emsp;&ensp;&nbsp; <input type="text" name="email" value="">
-    <br>
-    Wachtwoord <input type="password" name="wachtwoord" value="">
-    <br>
-    <input type="submit" name="knop" value="verstuur">
-</form>
-
-
+<p>Welkom bij hoofdstuk 9's opdracht (dit tekst komt niet voor zodra ik verder in de opdracht ben)</p>
 
 
 <p><a class='home' href='../../index.php'>Terug naar home</a><br><a href='../../PHP/H09/h09.php'>Terug naar Hoofdstuk 9</a></p>

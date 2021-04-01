@@ -32,5 +32,22 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
+    <data-source name="@localhostPHP [2]" uuid="82c5f2f7-1efe-447c-b5ab-40c8940ee9ac">
+      <database-info product="MySQL" version="5.5.5-10.3.24-MariaDB-cll-lve" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)" dbms="MARIADB" exact-version="10.3.24" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>u3651p69583_sander</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="u3651p69583_inlog" />
+            <name qname="u3651p69583_sander" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
   </component>
 </project>

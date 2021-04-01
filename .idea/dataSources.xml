@@ -20,5 +20,14 @@
         <property name="serverTimezone" value="GMT0" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="@localhostPHP [2]" uuid="82c5f2f7-1efe-447c-b5ab-40c8940ee9ac">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://web0098.zxcs.nl:3306/u3651p69583_inlog</jdbc-url>
+      <driver-properties>
+        <property name="serverTimezone" value="GMT0" />
+      </driver-properties>
+    </data-source>
   </component>
 </project>
