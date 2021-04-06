@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="wario.css">
     <meta charset="UTF-8">
     <title>Wario's coin game</title>
 </head>
 <body>
+<div class="gameContainer">
 
+<p>The rules are simple: don't be the one that grabs the last coin!</p>
+<p>
+    <span class="humanText"></span><br>
+    <span class="errorText"></span><br>
+    <span class="computerText"></span><br>
+    <span class="winOrLose"></span><br>
+    <span class="totalOfCoins"></span></p>
 
 <p>Take 1, 2 or 3 coins</p>
-<div class="takeButton"></div>
-<div class="restartButton"></div>
-
+<div class="coins"></div>
+<div class="takeButton">Take the coins</div>
+<input type="number" class="numberInput">
+<div class="restartButton">Restart the game</div>
+</div>
 <script src="wario.js"></script>
 </body>
 </html>
