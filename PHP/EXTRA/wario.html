@@ -6,22 +6,42 @@
     <title>Wario's coin game</title>
 </head>
 <body>
+<div class="coinContainer">
+    <p class="totalOfCoins"></p>
+    <div class="coins"></div>
+    <div class="restartButton">Restart the game</div>
+</div>
+
+
 <div class="gameContainer">
 
+
+
+    <div class="textContainer">
 <p>The rules are simple: don't be the one that grabs the last coin!</p>
+        <p>Click on the black buttons below to take 1, 2 or 3 coins</p>
 <p>
     <span class="humanText"></span><br>
     <span class="errorText"></span><br>
     <span class="computerText"></span><br>
-    <span class="winOrLose"></span><br>
-    <span class="totalOfCoins"></span></p>
+    <span class="winOrLose"></span>
+    </p>
 
-<p>Take 1, 2 or 3 coins</p>
-<div class="coins"></div>
-<div class="takeButton">Take the coins</div>
-<input type="number" class="numberInput">
-<div class="restartButton">Restart the game</div>
+
 </div>
+
+    <div class="takeContainer">
+
+        <div class="numberedCircles" id="takeOne">1</div>
+        <div class="numberedCircles" id="takeTwo">2</div>
+        <div class="numberedCircles" id="takeThree">3</div>
+
+
+
+</div>
+<div class="winOrLoseImage"></div>
+</div>
+
 <script src="wario.js"></script>
 </body>
 </html>
