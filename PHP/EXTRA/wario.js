@@ -1,10 +1,10 @@
 
    let selectedimage = document.querySelector(".winOrLoseImage")
-    selectedimage.innerHTML = "<img style='width: 300px' src='../../IMG/warioGame/Wario.png'>"; //the win/lose image
+    selectedimage.innerHTML = "<img alt='Wario holding his hands with a mischievious look' style='width: 300px' src='../../IMG/warioGame/Wario.png'>"; //the win/lose image
 
-   let coin = "<img style='width: 50px' src='../../IMG/warioGame/Coin.png'>" //image
-   let Lose = "<img style='width: 300px' src='../../IMG/warioGame/Wario-Wins.png'>"; //this was the losing image now i remember
-   let Win = "<img style='width: 300px' src='../../IMG/warioGame/Wario-loses.png'>"; //yes this was the win image
+   let coin = "<img alt='A coin from the Mario series' style='width: 50px' src='../../IMG/warioGame/Coin.png'>" //image
+   let Lose = "<img alt='Wario holding and shaking a bag of coins' style='width: 300px' src='../../IMG/warioGame/Wario-wins.png'>"; //this was the losing image now i remember
+   let Win = "<img alt='Wario holding his cap looking downwards sadly' style='width: 300px' src='../../IMG/warioGame/Wario-Loses.png'>"; //yes this was the win image
 
    let LoseSound = new Audio('../../SOUNDFILES/i-win.wav'); //sound
    let WinSound = new Audio('../../SOUNDFILES/rotten-day.wav'); //sound
@@ -14,8 +14,6 @@
    let aantal = 23; //ammount of coins
 
    let grabber = 0; //this grabs something i think
-
-   let converter = ""; //convert de grabber zodat de tekst goed werkt
 
    let Errortext = document.querySelector(".errorText");
        Errortext.innerHTML = ""; //this text is invisible until an error actually takes place
@@ -57,26 +55,6 @@ document.querySelector(".coins").innerHTML = coins
 
         restartbutton.addEventListener('click', Resetlistener);
 
-/*
-function didYouWinOrlose() {
-    coins = "";
-
-    if (aantal <= 0 && !PlayerTurn) {
-
-        WinSound.play();
-        selectedimage = Win;
-        winorlose.innerHTML = "Congratulations you won! <br> Press the red restart button to play again!";
-    }
-    else if (aantal <= 0 && PlayerTurn) {
-
-        document.querySelector(".coins").innerHTML = coins
-        /!*LoseSound;*!/
-        selectedimage = Lose;
-        winorlose.innerHTML = "Wario won better luck next time! <br> Press the red restart button to try again!";
-    }
-}*/
-
-//g.drawImage(selectedimage, 100,100,150,150, this); //surprises me that drawimage is an actual thing in js
 function SubtractionOne() {
     grabber = 1;
     Subtractionlistener();
@@ -226,5 +204,5 @@ function Resetlistener() {
     humantext.innerHTML = "This will tell how many coins you took last round";
     Errortext.innerHTML = "";
     winorlose.innerHTML = "";
-    selectedimage = document.querySelector(".winOrLoseImage").innerHTML = "<img style='width: 300px' src='../../IMG/warioGame/Wario.png'>";
+    selectedimage = document.querySelector(".winOrLoseImage").innerHTML = "<img alt='Wario holding his hands with a mischievious look' style='width: 300px' src='../../IMG/warioGame/Wario.png'>";
 }
