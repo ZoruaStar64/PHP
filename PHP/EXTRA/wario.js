@@ -1,12 +1,13 @@
 
    let selectedimage = document.querySelector(".winOrLoseImage")
     selectedimage.innerHTML = "<img style='width: 300px' src='../../IMG/warioGame/Wario.png'>"; //the win/lose image
+
    let coin = "<img style='width: 50px' src='../../IMG/warioGame/Coin.png'>" //image
    let Lose = "<img style='width: 300px' src='../../IMG/warioGame/Wario-Wins.png'>"; //this was the losing image now i remember
    let Win = "<img style='width: 300px' src='../../IMG/warioGame/Wario-loses.png'>"; //yes this was the win image
 
-   let LoseSound = "<source src='../../SOUNDFILES/i-win.wav'>"; //sound
-   let WinSound = "<source src='../../SOUNDFILES/rotten-day.wav'>"; //sound
+   let LoseSound = new Audio('../../SOUNDFILES/i-win.wav'); //sound
+   let WinSound = new Audio('../../SOUNDFILES/rotten-day.wav'); //sound
 
    let restartbutton = document.querySelector(".restartButton"); //this restarts the game
 
@@ -126,7 +127,7 @@ if (aantal <= 0) {
         }
     }
     document.querySelector(".coins").innerHTML = coins
-    /*LoseSound;*/
+    LoseSound.play();
     selectedimage.innerHTML = Lose;
     winorlose.innerHTML = "Wario won better luck next time! <br> Press the red restart button to try again!";
     break;
