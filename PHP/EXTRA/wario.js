@@ -128,7 +128,7 @@ if (aantal <= 0) {
     }
     document.querySelector(".coins").innerHTML = coins
     LoseSound.play();
-    selectedimage.innerHTML = Lose;
+    selectedimage = document.querySelector(".winOrLoseImage").innerHTML = Lose;
     winorlose.innerHTML = "Wario won better luck next time! <br> Press the red restart button to try again!";
     break;
 }
@@ -198,7 +198,7 @@ else if (!PlayerTurn) {
         if (aantal <= 0 && !PlayerTurn) {
             coins = "";
             WinSound.play();
-            selectedimage.innerHTML = Win;
+            selectedimage = document.querySelector(".winOrLoseImage").innerHTML = Win;
             winorlose.innerHTML = "Congratulations you won! <br> Press the red restart button to play again!";
             break;
         }
@@ -226,5 +226,5 @@ function Resetlistener() {
     humantext.innerHTML = "This will tell how many coins you took last round";
     Errortext.innerHTML = "";
     winorlose.innerHTML = "";
-    selectedimage = "";
+    selectedimage = document.querySelector(".winOrLoseImage").innerHTML = "<img style='width: 300px' src='../../IMG/warioGame/Wario.png'>";
 }
