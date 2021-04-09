@@ -21,6 +21,7 @@ echo "<p><a href='PHP/H06/h06.php'>Hoofdstuk 6</a></p>";
 echo "<p><a href='PHP/H07/h07.php'>Hoofdstuk 7</a></p>";
 echo "<p><a href='PHP/H08/h08.php'>Hoofdstuk 8</a></p>";
 echo "<p><a href='PHP/H09/h09.php'>Hoofdstuk 9</a></p>";
+echo "<p><a style='position: absolute; right: 0px; bottom: 0px' href='PHP/EXTRA/wario.html'>?</a></p>";
 ?>
 </body>
 </html>
