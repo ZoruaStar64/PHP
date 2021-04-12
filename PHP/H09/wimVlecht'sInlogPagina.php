@@ -16,7 +16,7 @@ $wachtwoord = $_POST['wachtwoord'];
 
 //$role = $_POST['role'];
 
-$query = "select * from session where `e-mail` = '$email'";
+$query = "select * from u3651p69583_inlog.inlog where `e-mail` = '$email'";
 $statement = $dbh->prepare($query) or die("Error 1.");
 $statement->execute() or die("Error 2.");
 
@@ -24,7 +24,7 @@ while ($arraytable = $statement->fetch()) {
 
     $trueEmail = $arraytable[0];
     $trueWachtwoord = $arraytable[1];
-    $trueRole = $arraytable[2];
+    //$trueRole = $arraytable[2];
 
 }
 
@@ -38,10 +38,10 @@ if (isset($_POST['knop'])
     //&& isset($trueEmail[$_POST["email"]])
     && $email == $trueEmail && $wachtwoord == $trueWachtwoord) {
     $_SESSION["user"] = array("naam" => $trueEmail,
-        "wachtwoord" => $trueWachtwoord,
-        "role" => $trueRole);
+        "wachtwoord" => $trueWachtwoord);
+        //"role" => $trueRole);
 
-    $message = "Welkom " . $_SESSION["user"] ["naam"] . " met de rol " . $_SESSION["user"] ["role"];
+    $message = "Welkom " . $_SESSION["user"] ["naam"];
 } else if ($email !== $trueEmail && $wachtwoord !== $trueWachtwoord) {
     $message = "Deze combinatie van gegevens komen niet voor in de database probeer het opnieuw!";
 } else {
@@ -61,7 +61,7 @@ if (isset($_POST['knop'])
 
 <h1><?php echo $message; ?></h1>
 
-<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
+<form action="toevoegScherm.php" method="POST">
     Email&emsp;&emsp;&ensp;&nbsp; <input type="text" name="email" value="">
     <br>
     Wachtwoord <input type="password" name="wachtwoord" value="">
@@ -69,10 +69,10 @@ if (isset($_POST['knop'])
     <input type="submit" name="knop" value="verstuur">
 </form>
 
-<p><a class='home' href='../../index.php'>Terug naar home</a><br><a href='../../PHP/H09/h09.php'>Terug naar Hoofdstuk 7</a></p>
+<p><a class='home' href='../../index.php'>Terug naar home</a><br><a href='../../PHP/H09/h09.php'>Terug naar Hoofdstuk 9</a></p>
 <br>
 
 
 </body>
-.
+
 </html>

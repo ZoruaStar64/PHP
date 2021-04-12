@@ -8,44 +8,7 @@ $dbh = new PDO('mysql:host='.$host.';dbname='.$db.';port='.$port, $user, $pass);
 $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 //echo "Connected successfully";
 } catch(PDOException $e) {
-echo "Connection failed: " . $e->getMessage();
-
-}
-$email = $_POST['email'];
-$wachtwoord = $_POST['wachtwoord'];
-
-//$role = $_POST['role'];
-
-$query = "select * from session where `e-mail` = '$email'";
-$statement = $dbh->prepare($query) or die("Error 1.");
-$statement->execute() or die("Error 2.");
-
-while ($arraytable = $statement->fetch()) {
-
-$trueEmail = $arraytable[0];
-$trueWachtwoord = $arraytable[1];
-$trueRole = $arraytable[2];
-
-}
-
-
-if (isset($_GET["logout"])) {
-$_SESSION = array();
-session_destroy();
-}
-
-if (isset($_POST['knop'])
-//&& isset($trueEmail[$_POST["email"]])
-&& $email == $trueEmail && $wachtwoord == $trueWachtwoord) {
-$_SESSION["user"] = array("naam" => $trueEmail,
-"wachtwoord" => $trueWachtwoord,
-"role" => $trueRole);
-
-$message = "Welkom " . $_SESSION["user"] ["naam"] . " met de rol " . $_SESSION["user"] ["role"];
-} else if ($email !== $trueEmail && $wachtwoord !== $trueWachtwoord) {
-$message = "Deze combinatie van gegevens komen niet voor in de database probeer het opnieuw!";
-} else {
-$message = "Inloggen";
+    echo "Connection failed: " . $e->getMessage();
 }
 
 ?>
@@ -57,14 +20,36 @@ $message = "Inloggen";
     <link rel="stylesheet" href="../../CSS/bakkerij.css">
     <title>Bakkerij Wim Vlecht</title>
 </head>
+
 <body>
-<a href="wimVlecht'sInlogPagina.php">Klik hier om in te loggen als Admin</a>
-<a href="opdrachtH9.php?logout">Klik hier om uit te loggen</a>
-<h1>Hoofdstuk 9's opdracht</h1>
+<header>
+    <div class="headerContainer">
+        <h2 style="color: white; font-size: 30px">Bakkerij Vlecht beheer</h2>
+    </div>
+</header>
+<div class="contentContainer">
+    <a href="opdrachtH9.php">Overzicht Goedren</a>
+    <a href="toevoegScherm.php">Goederen toevoegen (alleen voor admins)</a>
 
-<p>Welkom bij hoofdstuk 9's opdracht (dit tekst komt niet voor zodra ik verder in de opdracht ben)</p>
+<h1>Weergave van alle Goederen</h1>
+<h2>Globale informatie van alle goederen</h2>
 
+<table class="table">
+<?php
+require_once('bakkerijGalerij.php');
+$items = new itemOverzicht();
+foreach ($items->getItemLijst() as $item) {
 
+    echo '<tr><td>' . $item->getNaam() . '</td>
+              <td>' . $item->getGewicht() . '</td>
+              <td>' . $item->getVorm() . '</td>
+              <td><a href="details.php?id='. $item->getId() . '">Details</a> </td>';
+}
+?>
+
+</table>
+
+</div>
 <p><a class='home' href='../../index.php'>Terug naar home</a><br><a href='../../PHP/H09/h09.php'>Terug naar Hoofdstuk 9</a></p>
 <br>
 
