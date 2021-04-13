@@ -48,8 +48,9 @@ if (isset($_SESSION["user"])) {
     <br>
     <input type='submit' name='knop' value='verstuur'>
 </form>;
-}
+
 <?php
+}
 ?>
 
 
