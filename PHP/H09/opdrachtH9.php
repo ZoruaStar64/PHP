@@ -24,7 +24,7 @@ $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 <body>
 <header>
     <div class="headerContainer">
-        <h2 style="color: white; font-size: 30px">Bakkerij Vlecht beheer</h2>
+        <h2 style="color: white; font-size: 30px; padding-left: 350px; padding-top: 20px">Bakkerij Vlecht beheer</h2>
     </div>
 </header>
 <div class="contentContainer">

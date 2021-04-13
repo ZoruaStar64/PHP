@@ -24,6 +24,32 @@ else {
     $message = "U moet nog inloggen om broodjes te kunnen toevoegen";
 }
 
+if (isset($_SESSION["user"])) {
+    ?>
+    <p>Welkom bij de Product Input Systeem<br>
+    Zorg er alstublieft voor dat u bij ProductId goed kijkt hoeveelste product het wordt<br>
+    Op die manier gebeurt er niks onverwachts met de website b.v.b<br>
+    dat er twee producten met de Id 3 zijn<br>
+    anders zou dit handmatig in de database aangepast moeten worden</p>
+    <form action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' method='POST'>
+    Naam&emsp;&emsp;&ensp;&nbsp; <input type='text' name='naam' value=''>
+    <br>
+    Ingrediënten <input type='text' name='ingredienten' value=''>
+    <br>
+    Vorm <input type='text' name='vorm' value=''>
+    <br>
+    Gram <input type='text' name='gram' value=''>
+    <br>
+    Prijs <input type='text' name='prijs' value=''>
+    <br>
+    ImageUrl <input type='text' name='url' value=''>
+    <br>
+    ProductId <input type='text' name='id' value=''>
+    <br>
+    <input type='submit' name='knop' value='verstuur'>
+</form>;
+}
+<?php
 ?>
 
 
