@@ -1,7 +1,8 @@
+
 <?php
 session_start();
 require_once('../../PHP/MISC/creds.php');
-
+require_once ('wimVlechtsInlogPagina.php');
 try {
     $dbh = new PDO('mysql:host='.$host.';dbname='.$db.';port='.$port, $user, $pass);
 // set the PDO error mode to exception
@@ -11,8 +12,9 @@ try {
     echo "Connection failed: " . $e->getMessage();
 
 }
-require_once ('toevoegScherm.php');
+
 if (isset($_GET["logout"])) {
+    session_start();
     $_SESSION = array();
     session_destroy();
 }
@@ -23,37 +25,7 @@ if (isset($_SESSION["user"])) {
 else {
     $message = "U moet nog inloggen om broodjes te kunnen toevoegen";
 }
-
-if (isset($_SESSION["user"])) {
-    ?>
-    <p>Welkom bij de Product Input Systeem<br>
-    Zorg er alstublieft voor dat u bij ProductId goed kijkt hoeveelste product het wordt<br>
-    Op die manier gebeurt er niks onverwachts met de website b.v.b<br>
-    dat er twee producten met de Id 3 zijn<br>
-    anders zou dit handmatig in de database aangepast moeten worden</p>
-    <form action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' method='POST'>
-    Naam&emsp;&emsp;&ensp;&nbsp; <input type='text' name='naam' value=''>
-    <br>
-    Ingrediënten <input type='text' name='ingredienten' value=''>
-    <br>
-    Vorm <input type='text' name='vorm' value=''>
-    <br>
-    Gram <input type='text' name='gram' value=''>
-    <br>
-    Prijs <input type='text' name='prijs' value=''>
-    <br>
-    ImageUrl <input type='text' name='url' value=''>
-    <br>
-    ProductId <input type='text' name='id' value=''>
-    <br>
-    <input type='submit' name='knop' value='verstuur'>
-</form>;
-
-<?php
-}
 ?>
-
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -61,17 +33,84 @@ if (isset($_SESSION["user"])) {
     <title>Bakkerij Wim Vlecht</title>
 </head>
 <body>
-<a href="wimVlecht'sInlogPagina.php">Klik hier om in te loggen als Admin</a>
-<a href="toevoegScherm.php?logout">Klik hier om uit te loggen</a>
+<header>
+    <div class="headerContainer">
+        <h2 style="color: white; font-size: 30px; padding-left: 350px; padding-top: 20px">Bakkerij Vlecht beheer</h2>
+    </div>
+</header>
+<div class="contentContainer">
+    <a href="opdrachtH9.php">Overzicht Gerechten</a>
 <h1><?php echo $message ?></h1>
 
-<p>Welkom bij hoofdstuk 9's opdracht (dit tekst komt niet voor zodra ik verder in de opdracht ben)</p>
 
 
-<p><a class='home' href='../../index.php'>Terug naar home</a><br><a href='../../PHP/H09/h09.php'>Terug naar Hoofdstuk 9</a></p>
+
+<?php
+if (isset($_SESSION["user"])) {
+    ?>
+    <p>Welkom bij de Product Input Systeem<br>
+    voer alstublieft de benodigde gegevens hieronder in over het product/gerecht<br><br></p>
+    <form action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' method='POST'>
+    Naam&emsp;&emsp;&ensp;&nbsp; <input type='text' name='naam' value=''>
+    <br>
+    Ingrediënten <input type='text' name='ingredienten' value=''>
+    <br>
+    Vorm&emsp;&emsp;&ensp;&ensp; <input type='text' name='vorm' value=''>
+    <br>
+    Gram&emsp;&emsp;&ensp;&nbsp; <input type='text' name='gram' value=''>
+    <br>
+    Prijs&emsp;&emsp;&emsp;&nbsp; <input type='text' name='prijs' value=''>
+    <br>
+    ImageUrl&emsp;&nbsp; <input type='text' name='url' value=''>
+    <br>
+    <input type='submit' name='knop' value='verstuur'>
+</form>
+    <br>
+    <a href="toevoegScherm.php?logout">Klik hier om uit te loggen</a>
+<?php
+}
+else {
+   echo "<form action='toevoegScherm.php' method='POST'>
+        Email&emsp;&emsp;&ensp;&nbsp; <input type='text' name='email' value=''>
+        <br>
+        Wachtwoord <input type='password' name='wachtwoord' value=''>
+        <br>
+        <input type='submit' name='knop' value='verstuur'>
+</form>";
+}
+
+if (isset($_POST["naam"])) {
+    $naam = $_POST["naam"];
+}
+
+if (isset($_POST["ingredienten"])) {
+    $ingredienten = $_POST["ingredienten"];
+}
+
+if (isset($_POST["vorm"])) {
+    $vorm = $_POST["vorm"];
+}
+
+if (isset($_POST["gram"])) {
+    $gram = $_POST["gram"];
+}
+
+if (isset($_POST["prijs"])) {
+    $prijs = $_POST["prijs"];
+}
+
+if (isset($_POST["url"])) {
+    $url = $_POST["url"];
+}
+
+$assets = [$naam, $ingredienten, $vorm, $gram, $prijs, $url];
+foreach ($assets as $asset) {
+    echo $asset;
+}
+
+?>
+</div>
 <br>
-
-
+<p><a class='home' href='../../index.php'>Terug naar home</a><br><a href='../../PHP/H09/h09.php'>Terug naar Hoofdstuk 9</a></p>
 </body>
-
 </html>

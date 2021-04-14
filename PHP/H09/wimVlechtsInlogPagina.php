@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once('../../PHP/MISC/creds.php');
-
+//echo htmlspecialchars($_SERVER['PHP_SELF']);
 try {
     $dbh = new PDO('mysql:host='.$host.';dbname='.$db.';port='.$port, $user, $pass);
     // set the PDO error mode to exception
@@ -51,7 +51,7 @@ if (isset($_POST['knop'])
 ?>
 
 
-<!doctype html>
+<!--<!doctype html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="../../CSS/bakkerij.css">
@@ -59,20 +59,7 @@ if (isset($_POST['knop'])
 </head>
 <body>
 
-<h1><?php echo $message; ?></h1>
-
-<form action="toevoegScherm.php" method="POST">
-    Email&emsp;&emsp;&ensp;&nbsp; <input type="text" name="email" value="">
-    <br>
-    Wachtwoord <input type="password" name="wachtwoord" value="">
-    <br>
-    <input type="submit" name="knop" value="verstuur">
-</form>
-
-<p><a class='home' href='../../index.php'>Terug naar home</a><br><a href='../../PHP/H09/h09.php'>Terug naar Hoofdstuk 9</a></p>
-<br>
-
 
 </body>
 
-</html>
+</html>-->

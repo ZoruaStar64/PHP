@@ -28,11 +28,11 @@ $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     </div>
 </header>
 <div class="contentContainer">
-    <a href="opdrachtH9.php">Overzicht Goedren</a>
-    <a href="toevoegScherm.php">Goederen toevoegen (alleen voor admins)</a>
+    <a href="opdrachtH9.php">Overzicht Gerechten</a>
+    <a href="toevoegScherm.php">Gerechten toevoegen (alleen voor admins)</a>
 
-<h1>Weergave van alle Goederen</h1>
-<h2>Globale informatie van alle goederen</h2>
+<h1>Weergave van alle Gerechten</h1>
+<h2>Globale informatie van alle gerechten</h2>
 
 <table class="table">
 <?php
@@ -44,7 +44,7 @@ foreach ($items->getItemLijst() as $item) {
             <td>' . $item->getNaam() . '</td>
             <td>' . $item->getGewicht() . '</td>
             <td>' . $item->getVorm() . '</td>
-            <td><a href="details.php?id='. $item->getId() . '">Details</a> </td>
+            <td><a class="Details" href="details.php?id='. $item->getId() . '">Details</a> </td>
           </tr>';
 }
 ?>
