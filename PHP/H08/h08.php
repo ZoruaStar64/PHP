@@ -13,7 +13,7 @@ echo "<p>Welkom bij hoofdstuk 8!</p>";
 echo "<p>In hoofdstuk 8 heeft 3 opdrachten<br>
 in de eerste moet ik een klasse genaamd Radioprogramma maken met 3 attributen en 2 methoden<br>
 op die pagina moeten de naam van het programma, de omschrijving en de lijst met liedjes staan</p>
-<p>In de tweede moet ik monkeyBusiness.php maken de website heeft 2 afbeeldingen (svg)<br>
+<p>In de tweede moet ik monkeyBusiness.php maken de website heeft 2 afbeeldingen <br>
 en toont een lijst met namen van verschillende soorten apen<br>
 als je op een apensoort klikt opent het dan een google-zoekpagina met de afbeeldingen van de gekozen aap</p>
 <p>in de laatste opdracht moet ik een website maken voor Mr Wheely's Garagebedrijf met een overzicht van alle occassions op Wheely's website<br>
