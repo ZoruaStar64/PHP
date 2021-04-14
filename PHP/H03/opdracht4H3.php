@@ -26,15 +26,15 @@ for ($teller = 1; $teller < 10; $teller++) {
         echo "<br>";
     }
     if ($teller === 1 || $teller === 3 || $teller === 5 || $teller === 7 || $teller === 9 ) {
-        echo "<img style='border: green 3px solid' src='../../IMG/image" . $teller . ".png' width='150px' height='150px'>";
+        echo "<img style='border: green 3px solid' src='../../IMG/imageResultaatMap/image" . $teller . ".png' width='150px' height='150px'>";
 
     }
     if ($teller === 2 || $teller === 4 || $teller === 8) {
-        echo "<img style='border: red 3px solid' src='../../IMG/image" . $teller . ".png' width='150px' height='150px'>";
+        echo "<img style='border: red 3px solid' src='../../IMG/imageResultaatMap/image" . $teller . ".png' width='150px' height='150px'>";
     }
     if ($teller === 6) {
         $class = "class='moveToRight'";
-        echo "<img " .$class.  "src='../../IMG/image" . $teller . ".png' width='150px' height='150px'>";
+        echo "<img " .$class.  "src='../../IMG/imageResultaatMap/image" . $teller . ".png' width='150px' height='150px'>";
     }
 }
 echo "</div>";

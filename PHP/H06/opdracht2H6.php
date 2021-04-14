@@ -38,7 +38,7 @@ het enige wat aan de opdracht verandert is is dat ik nu de gegevens uit een data
     $wachtwoord = $_POST['wachtwoord'];
     //echo $email . "<br>" . $wachtwoord;
 
-    $query = "select `e-mail`, wachtwoord from docent where `e-mail` = '$email'";
+    $query = "select `e-mail`, wachtwoord from u3651p69583_sander.docent where `e-mail` = '$email'";
     $statement = $dbh->prepare($query) or die("Error 1.");
     $statement->execute() or die("Error 2.");
     //echo "<br>" . $query . "<br>";
