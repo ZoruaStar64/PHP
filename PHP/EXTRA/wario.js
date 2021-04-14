@@ -30,7 +30,7 @@
    let totalOfCoins = document.querySelector(".totalOfCoins")
        totalOfCoins.innerHTML = "The total of remaining coins = " + aantal;
 
-   let Botchoices = [3]; //an array with choices the bot can have
+   let Botchoices = [1,2,3]; //an array with choices the bot can have
 
     let coins = ""
 for ( let i = 1; i <= aantal; i++) {
@@ -159,12 +159,12 @@ else if (aantal === 22) {
     console.log(aantal);
 }
 else if (!PlayerTurn) {
-    aantal = aantal - (random + 1);
-    computertext.innerHTML = "Wario took " + "" + (random + 1) + " coin(s)";
+    aantal = aantal - (random);
+    computertext.innerHTML = "Wario took " + "" + (random) + " coin(s)";
     totalOfCoins.innerHTML = "The total of remaining coins = " + aantal;
     console.log(aantal);
 }
-
+console.log(Botchoices);
         for ( let i = 1; i <= aantal; i++) {
             coins += coin;
             if (i % 3 === 0) {
