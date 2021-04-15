@@ -1,9 +1,10 @@
 
 <?php
 session_start();
-require_once('../../PHP/MISC/creds.php');
+require_once('../MISC/creds.php');
 require_once ('wimVlechtsInlogPagina.php');
-try {
+
+/*try {
     $dbh = new PDO('mysql:host='.$host.';dbname='.$db.';port='.$port, $user, $pass);
 // set the PDO error mode to exception
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -11,7 +12,13 @@ try {
 } catch(PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
 
+}*/
+
+$link = mysqli_connect($host, $user, $pass, $db, $port);
+if (mysqli_connect_errno()) {
+    echo "connection failed" . mysqli_connect_error();
 }
+
 
 if (isset($_GET["logout"])) {
     session_start();
@@ -57,13 +64,13 @@ if (isset($_SESSION["user"])) {
     <br>
     Vorm&emsp;&emsp;&ensp;&ensp; <input type='text' name='vorm' value=''>
     <br>
-    Gram&emsp;&emsp;&ensp;&nbsp; <input type='text' name='gram' value=''>
+    Gram&emsp;&emsp;&ensp;&nbsp; <input type='number' name='gram' value=''>
     <br>
-    Prijs&emsp;&emsp;&emsp;&nbsp; <input type='text' name='prijs' value=''>
+    Prijs&emsp;&emsp;&emsp;&nbsp; <input type='number' name='prijs' value=''>
     <br>
-    ImageUrl&emsp;&nbsp; <input type='text' name='url' value=''>
+    ImageUrl&emsp;&nbsp; <input type='text' name='weblink' value=''>
     <br>
-    <input type='submit' name='knop' value='verstuur'>
+    <input type='submit' name='Add' value='verstuur'>
 </form>
     <br>
     <a href="toevoegScherm.php?logout">Klik hier om uit te loggen</a>
@@ -79,34 +86,67 @@ else {
 </form>";
 }
 
-if (isset($_POST["naam"])) {
-    $naam = $_POST["naam"];
+
+
+if (isset($_POST["Add"])) {
+
+    if (isset($_POST["naam"])) {
+        $naam = $_POST["naam"];
+    }
+
+    if (isset($_POST["ingredienten"])) {
+        $ingredienten = $_POST["ingredienten"];
+    }
+
+    if (isset($_POST["vorm"])) {
+        $vorm = $_POST["vorm"];
+    }
+
+    if (isset($_POST["gram"])) {
+        $gram = $_POST["gram"];
+    }
+
+    if (isset($_POST["prijs"])) {
+        $prijs = $_POST["prijs"];
+    }
+
+    if (isset($_POST["weblink"])) {
+        $webLink = $_POST["weblink"];
+    }
+
+/*    $querypt1 = "SELECT * FROM u3651p69583_inlog.bakkerij";
+    $statement1 = $dbh->prepare($querypt1) or die("Error 1.");
+    $statement1->execute() or die("Error 2.");
+
+    while ($arraytable = $statement1->fetch()) {
+
+    echo $arraytable[1];
+
+    }*/
+
+    $query = "INSERT INTO u3651p69583_inlog.bakkerij(naam, ingredienten, vorm, gram, prijs, webLink) VALUE (?, ?, ?, ?, ?, ?)";
+    $stmt1 = mysqli_prepare($link, $query);
+    $stmt1->bind_param("sssiis", $naam, $ingredienten, $vorm, $gram, $prijs, $webLink);
+    if (!$stmt1) {
+        die("mysqli error: " . mysqli_error($link));
+    }
+   else {
+       mysqli_stmt_execute($stmt1);
+
+       echo mysqli_stmt_error($stmt1);
+       mysqli_stmt_close($stmt1);
+   }
+    $assets = [$naam, $ingredienten, $vorm, $gram, $prijs, $webLink];
+    echo "De volgende gegevens zijn toegevoegd aan de database met een nieuwe ID";
+    foreach ($assets as $asset) {
+        echo "<br>";
+        echo $asset;
+        echo "<br>";
+    }
 }
 
-if (isset($_POST["ingredienten"])) {
-    $ingredienten = $_POST["ingredienten"];
-}
 
-if (isset($_POST["vorm"])) {
-    $vorm = $_POST["vorm"];
-}
 
-if (isset($_POST["gram"])) {
-    $gram = $_POST["gram"];
-}
-
-if (isset($_POST["prijs"])) {
-    $prijs = $_POST["prijs"];
-}
-
-if (isset($_POST["url"])) {
-    $url = $_POST["url"];
-}
-
-$assets = [$naam, $ingredienten, $vorm, $gram, $prijs, $url];
-foreach ($assets as $asset) {
-    echo $asset;
-}
 
 ?>
 </div>
