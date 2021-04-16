@@ -29,7 +29,8 @@ $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 </header>
 <div class="contentContainer">
     <a href="opdrachtH9.php">Overzicht Gerechten</a>
-    <a href="toevoegScherm.php">Gerechten toevoegen (alleen voor admins)</a>
+    <a href="toevoegScherm.php">Gerechten Toevoegen (Alleen voor Admins)</a>
+    <a href="updateScherm.php">Gerechten Updaten (Alleen voor Admins)</a>
 
 <h1>Weergave van alle Gerechten</h1>
 <h2>Globale informatie van alle gerechten</h2>

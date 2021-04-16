@@ -3,6 +3,7 @@
 session_start();
 require_once('../MISC/creds.php');
 require_once ('wimVlechtsInlogPagina.php');
+require_once ('../MISC/functions.php');
 
 /*try {
     $dbh = new PDO('mysql:host='.$host.';dbname='.$db.';port='.$port, $user, $pass);
@@ -47,6 +48,7 @@ else {
 </header>
 <div class="contentContainer">
     <a href="opdrachtH9.php">Overzicht Gerechten</a>
+    <a href="updateScherm.php">Gerechten Gegevens Wijzigen</a>
 <h1><?php echo $message ?></h1>
 
 
@@ -124,7 +126,9 @@ if (isset($_POST["Add"])) {
 
     }*/
 
-    $query = "INSERT INTO u3651p69583_inlog.bakkerij(naam, ingredienten, vorm, gram, prijs, webLink) VALUE (?, ?, ?, ?, ?, ?)";
+voegToe($link, $naam, $ingredienten, $vorm, $gram, $prijs, $webLink);
+
+/*    $query = "INSERT INTO u3651p69583_inlog.bakkerij(naam, ingredienten, vorm, gram, prijs, webLink) VALUE (?, ?, ?, ?, ?, ?)";
     $stmt1 = mysqli_prepare($link, $query);
     $stmt1->bind_param("sssiis", $naam, $ingredienten, $vorm, $gram, $prijs, $webLink);
     if (!$stmt1) {
@@ -142,7 +146,7 @@ if (isset($_POST["Add"])) {
         echo "<br>";
         echo $asset;
         echo "<br>";
-    }
+    }*/
 }
 
 

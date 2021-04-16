@@ -88,11 +88,6 @@ new Items ('Croissant', 'onbekend', 1, '', 'onbekend', '50 gram', 2)
 ];
 }
 
-    public function voegItemToe($naam, $ingredienten, $prijs, $url, $vorm, $gewicht, $id) {
-    $newItem = new Items($naam, $ingredienten, $prijs, $url, $vorm, $gewicht, $id);
-    $this->items[] = $newItem;
-    }
-
 
     public function getItemLijst() {
     return $this->items;
