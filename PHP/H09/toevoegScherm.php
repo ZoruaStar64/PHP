@@ -116,37 +116,9 @@ if (isset($_POST["Add"])) {
         $webLink = $_POST["weblink"];
     }
 
-/*    $querypt1 = "SELECT * FROM u3651p69583_inlog.bakkerij";
-    $statement1 = $dbh->prepare($querypt1) or die("Error 1.");
-    $statement1->execute() or die("Error 2.");
-
-    while ($arraytable = $statement1->fetch()) {
-
-    echo $arraytable[1];
-
-    }*/
-
 voegToe($link, $naam, $ingredienten, $vorm, $gram, $prijs, $webLink);
 
-/*    $query = "INSERT INTO u3651p69583_inlog.bakkerij(naam, ingredienten, vorm, gram, prijs, webLink) VALUE (?, ?, ?, ?, ?, ?)";
-    $stmt1 = mysqli_prepare($link, $query);
-    $stmt1->bind_param("sssiis", $naam, $ingredienten, $vorm, $gram, $prijs, $webLink);
-    if (!$stmt1) {
-        die("mysqli error: " . mysqli_error($link));
-    }
-   else {
-       mysqli_stmt_execute($stmt1);
 
-       echo mysqli_stmt_error($stmt1);
-       mysqli_stmt_close($stmt1);
-   }
-    $assets = [$naam, $ingredienten, $vorm, $gram, $prijs, $webLink];
-    echo "De volgende gegevens zijn toegevoegd aan de database met een nieuwe ID";
-    foreach ($assets as $asset) {
-        echo "<br>";
-        echo $asset;
-        echo "<br>";
-    }*/
 }
 
 

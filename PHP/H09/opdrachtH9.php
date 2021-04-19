@@ -42,18 +42,6 @@ $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 newCreateVariables($link);
 
-
-/*require_once('bakkerijGalerij.php');
-$items = new itemOverzicht();*/
-/*foreach ($items->getItemLijst() as $item) {
-
-    echo '<tr>
-            <td>' . $item->getNaam() . '</td>
-            <td>' . $item->getGewicht() . '</td>
-            <td>' . $item->getVorm() . '</td>
-            <td><a class="Details" href="details.php?id='. $item->getId() . '">Details</a> </td>
-          </tr>';
-}*/
 ?>
 
 </table>
