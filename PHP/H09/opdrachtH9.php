@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once('../../PHP/MISC/creds.php');
-
+require_once ('../MISC/functions.php');
 try {
 $dbh = new PDO('mysql:host='.$host.';dbname='.$db.';port='.$port, $user, $pass);
 // set the PDO error mode to exception
@@ -10,6 +10,8 @@ $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch(PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
 }
+
+
 
 ?>
 
@@ -37,9 +39,13 @@ $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 <table class="table">
 <?php
-require_once('bakkerijGalerij.php');
-$items = new itemOverzicht();
-foreach ($items->getItemLijst() as $item) {
+
+newCreateVariables($link);
+
+
+/*require_once('bakkerijGalerij.php');
+$items = new itemOverzicht();*/
+/*foreach ($items->getItemLijst() as $item) {
 
     echo '<tr>
             <td>' . $item->getNaam() . '</td>
@@ -47,7 +53,7 @@ foreach ($items->getItemLijst() as $item) {
             <td>' . $item->getVorm() . '</td>
             <td><a class="Details" href="details.php?id='. $item->getId() . '">Details</a> </td>
           </tr>';
-}
+}*/
 ?>
 
 </table>

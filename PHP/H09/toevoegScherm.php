@@ -68,7 +68,7 @@ if (isset($_SESSION["user"])) {
     <br>
     Gram&emsp;&emsp;&ensp;&nbsp; <input type='number' name='gram' value=''>
     <br>
-    Prijs&emsp;&emsp;&emsp;&nbsp; <input type='number' name='prijs' value=''>
+    Prijs&emsp;&emsp;&emsp;&nbsp; <input type='text' name='prijs' value=''>
     <br>
     ImageUrl&emsp;&nbsp; <input type='text' name='weblink' value=''>
     <br>

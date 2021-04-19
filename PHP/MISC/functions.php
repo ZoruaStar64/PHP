@@ -68,7 +68,7 @@ function editName ($link, $naam, $id) {
     else {
         mysqli_stmt_execute($stmt1);
 
-        echo mysqli_stmt_error($stmt1);
+        //echo mysqli_stmt_error($stmt1);
         mysqli_stmt_close($stmt1);
     }
 
@@ -89,7 +89,7 @@ function editIngredienten ($link, $ingredienten, $id) {
     else {
         mysqli_stmt_execute($stmt1);
 
-        echo mysqli_stmt_error($stmt1);
+        //echo mysqli_stmt_error($stmt1);
         mysqli_stmt_close($stmt1);
     }
 
@@ -110,7 +110,7 @@ function editVorm ($link, $vorm, $id) {
     else {
         mysqli_stmt_execute($stmt1);
 
-        echo mysqli_stmt_error($stmt1);
+        //echo mysqli_stmt_error($stmt1);
         mysqli_stmt_close($stmt1);
     }
 
@@ -131,7 +131,7 @@ function editGewicht ($link, $gram, $id) {
     else {
         mysqli_stmt_execute($stmt1);
 
-        echo mysqli_stmt_error($stmt1);
+        //echo mysqli_stmt_error($stmt1);
         mysqli_stmt_close($stmt1);
     }
 
@@ -152,7 +152,7 @@ function editPrijs ($link, $prijs, $id) {
     else {
         mysqli_stmt_execute($stmt1);
 
-        echo mysqli_stmt_error($stmt1);
+        //echo mysqli_stmt_error($stmt1);
         mysqli_stmt_close($stmt1);
     }
 
@@ -173,7 +173,7 @@ function editImage ($link, $webLink, $id) {
     else {
         mysqli_stmt_execute($stmt1);
 
-        echo mysqli_stmt_error($stmt1);
+        //echo mysqli_stmt_error($stmt1);
         mysqli_stmt_close($stmt1);
     }
 
@@ -182,4 +182,82 @@ function editImage ($link, $webLink, $id) {
     echo $queryImage;
 
 }
+
+function createVariables($link, $naam, $ingredienten, $vorm, $gram, $prijs, $webLink) {
+/*    $queryGet = "SELECT id, naam, ingredienten, vorm, gram, prijs, webLink FROM u3651p69583_inlog.bakkerij";
+    $result = $link->query($queryGet);*/
+/*    $getStatement = mysqli_prepare($link, $queryGet);
+    $getStatement->bind_param("sssiis", $naam, $ingredienten, $vorm, $gram, $prijs, $webLink);*/
+
+/*    if (!$getStatement) {
+        die("mysqli error: " . mysqli_error($link));
+    }
+    else {
+        mysqli_stmt_execute($getStatement);
+        echo mysqli_stmt_error($getStatement);
+        mysqli_stmt_close($getStatement);
+    }*/
+
+/*    if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+            echo  "<br>" . "naam: " . $row["naam"] . " - Vorm: " . $row["vorm"];
+        }
+    }*/
+
+/*    while ($arraytable = $getStatement->fetch()) {
+
+        $trueNaam = $arraytable[0];
+        $trueingredienten = $arraytable[1];
+        $trueVorm = $arraytable[2];
+        $trueGram = $arraytable[3];
+        $truePrijs = $arraytable[4];
+        $trueLink = $arraytable[5];
+
+    }*/
+
+}
+//fetch_array(MYSQLI_ASSOC)
+
+function newCreateVariables($link) {
+    $queryGet = "SELECT id, naam, ingredienten, vorm, gram, prijs, webLink FROM u3651p69583_inlog.bakkerij";
+    $result = $link->query($queryGet);
+    if ($result->num_rows > 0) {
+        while ($row = $result->fetch_assoc()) {
+            echo '<tr>
+            <td>' . $row["naam"] . '</td>
+            <td>' . $row["gram"] . " Gram" . '</td>
+            <td>' . $row["vorm"] . '</td>
+            <td><a class="Details" href="details.php?id=' . $row["id"] . '">Details</a> </td>
+          </tr>';
+        }
+    }
+}
+
+function details($link, $id) {
+
+/*   $id = $_GET["id"];*/
+
+    $queryGet = "SELECT id, naam, ingredienten, vorm, gram, prijs, webLink FROM u3651p69583_inlog.bakkerij WHERE id='$id'";
+    $result1 = $link->query($queryGet);
+    $row = $result1->fetch_assoc();
+
+            echo '<tr>
+
+            <td>NAAM: ' . $row["naam"] . '</td>
+            <br>
+            <td>INGREDIENTEN: ' . $row["ingredienten"] . '</td>
+            <br>
+            <td>VORM: ' . $row["vorm"] . '</td>
+            <br>
+            <td>GEWICHT: ' . $row["gram"] . " Gram" . '</td>
+            <br>
+            <td>PRIJS: &euro; ' . $row["prijs"] . '</td>
+            <br>
+            <td><img style="width: 300px" src="' .$row["webLink"] . '">' . '</td>
+       
+          </tr>';
+
+        }
+
+
 //Einde H9 functions

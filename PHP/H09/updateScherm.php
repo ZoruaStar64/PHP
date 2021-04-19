@@ -91,7 +91,7 @@ else {
         <form action='<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>' method='POST'>
             ID&emsp;&emsp;&emsp;&emsp;&nbsp; <input type="number" name="id" value="">
             <br>
-            Prijs&emsp;&emsp;&emsp;&nbsp; <input type='number' name='prijs' value=''>
+            Prijs&emsp;&emsp;&emsp;&nbsp; <input type='text' name='prijs' value=''>
             <br>
             <input type='submit' name='updatePrijs' value='Update de prijs'>
         </form>
