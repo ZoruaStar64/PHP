@@ -7,7 +7,7 @@
 <body>
 
 <?php
-echo "<h1>Hoofdstuk 3 Opdracht 6</h1>";
+echo "<h1>Hoofdstuk 3 Opdracht 7</h1>";
 
 echo "<p>Welkom bij de zesde opdracht van Hoofdstuk 3!</p>";
 

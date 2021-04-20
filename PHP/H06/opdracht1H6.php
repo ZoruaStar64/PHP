@@ -35,7 +35,7 @@ try {
   echo "Connection failed: " . $e->getMessage();
 }
 
-$query = "select * from cursist";
+$query = "select * from u3651p69583_sander.cursist";
 $statement = $dbh->prepare($query) or die("Error 1.");
 $statement->execute() or die("Error 2.");
 
