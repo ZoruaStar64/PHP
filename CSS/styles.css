@@ -13,28 +13,28 @@ p {
 }
 
 a:link {
-    color: #6d0202;
+    color: #02146d;
     border: 1px black solid;
-    background-color: #b73131;
+    background-color: #7c9cd4;
     text-decoration: none;
 }
 
 a:hover {
-    color: #dd2047;
+    color: #041eb1;
     border: 1px black solid;
-    background-color: #cf7e90;
+    background-color: #7c9cd4;
     text-decoration: underline;
 }
 
 a:active {
-    color: #ff008c;
+    color: #0a2eee;
     border: 1px black solid;
-    background-color: #ae638f;
+    background-color: #7c9cd4;
     text-decoration: underline;
 }
 
 a.home {
     color: forestgreen;
     border: 1px black solid;
-    background-color: #2be705;
+    background-color: #70ef56;
 }
