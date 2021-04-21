@@ -47,6 +47,11 @@ if (isset($_POST['knop'])
 } else {
     $message = "Inloggen";
 }
+/*$youShouldNotBeHere = true;
+if ($youShouldNotBeHere = true) {
+echo "<script>location.href='toevoegScherm.php';</script>";
+exit;
+}*/
 
 ?>
 

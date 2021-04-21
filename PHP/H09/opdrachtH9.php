@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once('../../PHP/MISC/creds.php');
-
+require_once ('../MISC/functions.php');
 try {
 $dbh = new PDO('mysql:host='.$host.';dbname='.$db.';port='.$port, $user, $pass);
 // set the PDO error mode to exception
@@ -10,6 +10,8 @@ $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch(PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
 }
+
+
 
 ?>
 
@@ -29,24 +31,17 @@ $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 </header>
 <div class="contentContainer">
     <a href="opdrachtH9.php">Overzicht Gerechten</a>
-    <a href="toevoegScherm.php">Gerechten toevoegen (alleen voor admins)</a>
+    <a href="toevoegScherm.php">Gerechten Toevoegen (Alleen voor Admins)</a>
+    <a href="updateScherm.php">Gerechten Updaten (Alleen voor Admins)</a>
 
 <h1>Weergave van alle Gerechten</h1>
 <h2>Globale informatie van alle gerechten</h2>
 
 <table class="table">
 <?php
-require_once('bakkerijGalerij.php');
-$items = new itemOverzicht();
-foreach ($items->getItemLijst() as $item) {
 
-    echo '<tr>
-            <td>' . $item->getNaam() . '</td>
-            <td>' . $item->getGewicht() . '</td>
-            <td>' . $item->getVorm() . '</td>
-            <td><a class="Details" href="details.php?id='. $item->getId() . '">Details</a> </td>
-          </tr>';
-}
+newCreateVariables($link);
+
 ?>
 
 </table>

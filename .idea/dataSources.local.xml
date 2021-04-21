@@ -30,6 +30,7 @@
     </data-source>
     <data-source name="@localhostPHP [2]" uuid="82c5f2f7-1efe-447c-b5ab-40c8940ee9ac">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MARIADB" exact-version="0" />
+      <user-name>u3651p69583_sander</user-name>
       <schema-mapping />
     </data-source>
   </component>

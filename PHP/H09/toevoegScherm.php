@@ -1,9 +1,11 @@
 
 <?php
 session_start();
-require_once('../../PHP/MISC/creds.php');
+require_once('../MISC/creds.php');
 require_once ('wimVlechtsInlogPagina.php');
-try {
+require_once ('../MISC/functions.php');
+
+/*try {
     $dbh = new PDO('mysql:host='.$host.';dbname='.$db.';port='.$port, $user, $pass);
 // set the PDO error mode to exception
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -11,7 +13,13 @@ try {
 } catch(PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
 
+}*/
+
+$link = mysqli_connect($host, $user, $pass, $db, $port);
+if (mysqli_connect_errno()) {
+    echo "connection failed" . mysqli_connect_error();
 }
+
 
 if (isset($_GET["logout"])) {
     session_start();
@@ -40,6 +48,7 @@ else {
 </header>
 <div class="contentContainer">
     <a href="opdrachtH9.php">Overzicht Gerechten</a>
+    <a href="updateScherm.php">Gerechten Gegevens Wijzigen</a>
 <h1><?php echo $message ?></h1>
 
 
@@ -57,13 +66,13 @@ if (isset($_SESSION["user"])) {
     <br>
     Vorm&emsp;&emsp;&ensp;&ensp; <input type='text' name='vorm' value=''>
     <br>
-    Gram&emsp;&emsp;&ensp;&nbsp; <input type='text' name='gram' value=''>
+    Gram&emsp;&emsp;&ensp;&nbsp; <input type='number' name='gram' value=''>
     <br>
     Prijs&emsp;&emsp;&emsp;&nbsp; <input type='text' name='prijs' value=''>
     <br>
-    ImageUrl&emsp;&nbsp; <input type='text' name='url' value=''>
+    ImageUrl&emsp;&nbsp; <input type='text' name='weblink' value=''>
     <br>
-    <input type='submit' name='knop' value='verstuur'>
+    <input type='submit' name='Add' value='verstuur'>
 </form>
     <br>
     <a href="toevoegScherm.php?logout">Klik hier om uit te loggen</a>
@@ -79,34 +88,41 @@ else {
 </form>";
 }
 
-if (isset($_POST["naam"])) {
-    $naam = $_POST["naam"];
+
+
+if (isset($_POST["Add"])) {
+
+    if (isset($_POST["naam"])) {
+        $naam = $_POST["naam"];
+    }
+
+    if (isset($_POST["ingredienten"])) {
+        $ingredienten = $_POST["ingredienten"];
+    }
+
+    if (isset($_POST["vorm"])) {
+        $vorm = $_POST["vorm"];
+    }
+
+    if (isset($_POST["gram"])) {
+        $gram = $_POST["gram"];
+    }
+
+    if (isset($_POST["prijs"])) {
+        $prijs = $_POST["prijs"];
+    }
+
+    if (isset($_POST["weblink"])) {
+        $webLink = $_POST["weblink"];
+    }
+
+voegToe($link, $naam, $ingredienten, $vorm, $gram, $prijs, $webLink);
+
+
 }
 
-if (isset($_POST["ingredienten"])) {
-    $ingredienten = $_POST["ingredienten"];
-}
 
-if (isset($_POST["vorm"])) {
-    $vorm = $_POST["vorm"];
-}
 
-if (isset($_POST["gram"])) {
-    $gram = $_POST["gram"];
-}
-
-if (isset($_POST["prijs"])) {
-    $prijs = $_POST["prijs"];
-}
-
-if (isset($_POST["url"])) {
-    $url = $_POST["url"];
-}
-
-$assets = [$naam, $ingredienten, $vorm, $gram, $prijs, $url];
-foreach ($assets as $asset) {
-    echo $asset;
-}
 
 ?>
 </div>
